@@ -1,0 +1,501 @@
+ride_id,timestamp,hour,day_of_week,is_weekend,pickup_location,dropoff_location,distance_km,duration_min,weather_condition,temperature_c,precipitation_mm,wind_speed_kmh,active_drivers,ride_requests,demand_supply_ratio,surge_multiplier,base_fare,price
+RIDE_100000,2026-08-11 19:25:12,19,Tuesday,0,Downtown Financial District,North Suburbs,15.5,53.3,Fog,15.9,0.0,11.0,65,89,1.369,1.26,3.5,62.35
+RIDE_100001,2026-08-27 16:51:53,16,Thursday,0,Tech Park / University,Midtown Center,10.4,23.7,Clear,28.1,0.0,19.0,41,50,1.22,1.16,3.5,37.06
+RIDE_100002,2026-08-14 13:08:48,13,Friday,0,Midtown Center,North Suburbs,10.87,22.0,Clear,25.3,0.0,9.8,67,45,0.672,1.0,3.5,31.01
+RIDE_100003,2026-09-22 22:47:46,22,Tuesday,0,Midtown Center,East Riverfront,3.16,7.1,Clear,31.8,0.0,10.9,76,80,1.053,1.08,3.5,15.69
+RIDE_100004,2026-09-10 23:08:56,23,Thursday,0,Downtown Financial District,Midtown Center,3.26,8.1,Fog,14.5,0.0,8.9,65,82,1.262,1.18,3.5,15.6
+RIDE_100005,2026-08-10 02:19:32,2,Monday,0,Tech Park / University,Midtown Center,10.5,22.5,Cloudy,29.7,0.0,5.9,56,65,1.161,1.13,3.5,34.16
+RIDE_100006,2026-09-19 01:33:47,1,Saturday,1,Downtown Financial District,East Riverfront,4.32,10.4,Clear,25.9,0.0,3.5,40,91,2.275,2.01,3.5,32.94
+RIDE_100007,2026-08-20 07:19:31,7,Thursday,0,North Suburbs,Midtown Center,12.21,37.9,Cloudy,25.3,0.0,19.3,57,92,1.614,1.45,3.5,56.49
+RIDE_100008,2026-09-13 14:43:58,14,Sunday,1,Westside Residential,South Bay District,20.15,37.0,Clear,22.1,0.0,5.8,64,36,0.562,1.0,3.5,50.67
+RIDE_100009,2026-08-01 15:08:35,15,Saturday,1,International Airport,North Suburbs,17.31,35.5,Clear,20.8,0.0,15.1,74,62,0.838,1.0,3.5,51.62
+RIDE_100010,2026-09-11 00:45:46,0,Friday,0,East Riverfront,International Airport,20.08,47.9,Heavy Rain,17.6,21.6,17.9,75,72,0.96,1.03,3.5,65.19
+RIDE_100011,2026-08-16 02:17:36,2,Sunday,1,Tech Park / University,South Bay District,14.91,29.7,Clear,31.6,0.0,17.4,29,84,2.897,2.57,3.5,103.35
+RIDE_100012,2026-09-02 16:19:19,16,Wednesday,0,Midtown Center,Downtown Financial District,3.5,12.8,Heavy Rain,18.5,12.9,35.9,59,71,1.203,1.15,3.5,21.24
+RIDE_100013,2026-09-06 21:17:41,21,Sunday,1,Midtown Center,Tech Park / University,11.14,22.3,Cloudy,22.1,0.0,4.8,67,57,0.851,1.0,3.5,30.64
+RIDE_100014,2026-09-03 09:28:29,9,Thursday,0,Westside Residential,South Bay District,21.9,65.6,Clear,19.7,0.0,9.1,66,52,0.788,1.0,3.5,64.79
+RIDE_100015,2026-08-05 05:14:48,5,Wednesday,0,South Bay District,Westside Residential,16.34,33.3,Cloudy,23.8,0.0,6.8,90,71,0.789,1.0,3.5,43.99
+RIDE_100016,2026-08-13 02:51:57,2,Thursday,0,North Suburbs,Downtown Financial District,15.23,31.8,Cloudy,27.8,0.0,9.2,88,81,0.92,1.01,3.5,41.39
+RIDE_100017,2026-09-23 14:20:52,14,Wednesday,0,Westside Residential,South Bay District,20.81,40.4,Clear,32.0,0.0,7.5,41,31,0.756,1.0,3.5,53.91
+RIDE_100018,2026-09-05 02:40:14,2,Saturday,1,Tech Park / University,North Suburbs,20.67,40.4,Cloudy,27.5,0.0,12.0,50,105,2.1,1.85,3.5,98.91
+RIDE_100019,2026-08-07 18:04:30,18,Friday,0,Downtown Financial District,North Suburbs,14.8,59.3,Rain,21.9,2.1,27.0,48,134,2.792,2.47,3.5,127.32
+RIDE_100020,2026-08-23 03:02:29,3,Sunday,1,Westside Residential,Downtown Financial District,7.07,13.9,Cloudy,21.2,0.0,14.0,91,70,0.769,1.0,3.5,23.19
+RIDE_100021,2026-08-23 14:26:31,14,Sunday,1,Midtown Center,Westside Residential,9.35,19.0,Clear,22.8,0.0,4.9,62,60,0.968,1.03,3.5,28.82
+RIDE_100022,2026-08-27 23:43:31,23,Thursday,0,South Bay District,East Riverfront,16.7,41.2,Rain,18.2,2.4,22.3,72,56,0.778,1.0,3.5,48.34
+RIDE_100023,2026-09-05 10:07:14,10,Saturday,1,International Airport,Tech Park / University,21.61,55.2,Rain,17.2,3.5,41.6,74,59,0.797,1.0,3.5,68.32
+RIDE_100024,2026-09-04 11:50:26,11,Friday,0,Tech Park / University,North Suburbs,20.86,43.7,Fog,17.8,0.0,7.8,85,47,0.553,1.0,3.5,54.61
+RIDE_100025,2026-08-26 22:06:12,22,Wednesday,0,Midtown Center,East Riverfront,3.53,10.6,Clear,18.3,0.0,11.4,87,49,0.563,1.0,3.5,14.48
+RIDE_100026,2026-08-17 14:46:55,14,Monday,0,Tech Park / University,Midtown Center,10.62,22.7,Clear,25.6,0.0,11.6,61,84,1.377,1.26,3.5,37.9
+RIDE_100027,2026-09-14 21:08:39,21,Monday,0,North Suburbs,International Airport,21.45,44.3,Cloudy,30.7,0.0,10.4,60,59,0.983,1.04,3.5,64.73
+RIDE_100028,2026-09-24 01:47:13,1,Thursday,0,Tech Park / University,North Suburbs,24.35,47.6,Clear,25.0,0.0,12.7,88,46,0.523,1.0,3.5,62.48
+RIDE_100029,2026-09-01 11:38:00,11,Tuesday,0,Downtown Financial District,International Airport,21.59,53.6,Heavy Rain,21.6,19.2,24.9,71,112,1.577,1.42,3.5,94.28
+RIDE_100030,2026-08-04 02:47:56,2,Tuesday,0,East Riverfront,Tech Park / University,6.19,11.9,Clear,24.8,0.0,9.3,81,60,0.741,1.0,3.5,20.92
+RIDE_100031,2026-08-26 23:52:53,23,Wednesday,0,Midtown Center,International Airport,18.15,36.7,Clear,22.5,0.0,17.4,48,72,1.5,1.36,3.5,73.81
+RIDE_100032,2026-09-25 01:37:31,1,Friday,0,East Riverfront,Midtown Center,2.84,8.2,Clear,21.6,0.0,13.4,46,65,1.413,1.29,3.5,17.69
+RIDE_100033,2026-09-18 11:17:35,11,Friday,0,North Suburbs,East Riverfront,16.4,44.9,Rain,16.7,3.6,26.3,28,83,2.964,2.63,3.5,127.06
+RIDE_100034,2026-09-14 13:12:08,13,Monday,0,International Airport,Tech Park / University,18.87,36.0,Cloudy,18.4,0.0,3.6,45,44,0.978,1.04,3.5,56.15
+RIDE_100035,2026-08-14 13:21:44,13,Friday,0,Tech Park / University,North Suburbs,21.92,56.7,Rain,19.0,1.3,17.6,65,82,1.262,1.18,3.5,74.71
+RIDE_100036,2026-09-24 12:04:57,12,Thursday,0,Westside Residential,North Suburbs,13.43,25.9,Cloudy,22.5,0.0,16.5,58,57,0.983,1.04,3.5,38.82
+RIDE_100037,2026-09-26 18:11:02,18,Saturday,1,North Suburbs,Westside Residential,10.43,19.2,Clear,24.0,0.0,14.7,40,30,0.75,1.0,3.5,29.17
+RIDE_100038,2026-09-08 18:40:14,18,Tuesday,0,East Riverfront,Midtown Center,2.64,8.5,Clear,31.1,0.0,13.9,64,75,1.172,1.14,3.5,13.67
+RIDE_100039,2026-08-14 10:20:10,10,Friday,0,South Bay District,Downtown Financial District,14.41,29.7,Clear,19.6,0.0,3.8,88,59,0.67,1.0,3.5,40.25
+RIDE_100040,2026-08-05 13:47:20,13,Wednesday,0,Midtown Center,International Airport,19.57,38.1,Clear,24.9,0.0,11.0,72,59,0.819,1.0,3.5,56.23
+RIDE_100041,2026-08-16 12:47:06,12,Sunday,1,North Suburbs,Westside Residential,13.33,34.9,Heavy Rain,14.1,8.0,43.0,56,40,0.714,1.0,3.5,42.32
+RIDE_100042,2026-08-07 04:01:49,4,Friday,0,North Suburbs,Tech Park / University,24.92,61.7,Heavy Rain,20.4,16.6,35.3,57,82,1.439,1.31,3.5,92.3
+RIDE_100043,2026-09-27 20:31:14,20,Sunday,1,South Bay District,Westside Residential,22.39,54.1,Heavy Rain,14.6,6.5,18.0,30,110,3.667,3.26,3.5,203.77
+RIDE_100044,2026-08-25 09:50:14,9,Tuesday,0,Downtown Financial District,North Suburbs,17.12,52.6,Clear,21.6,0.0,11.4,97,156,1.608,1.45,3.5,76.1
+RIDE_100045,2026-08-12 02:55:29,2,Wednesday,0,Westside Residential,South Bay District,18.09,33.2,Clear,28.5,0.0,16.7,88,64,0.727,1.0,3.5,46.05
+RIDE_100046,2026-09-03 00:39:58,0,Thursday,0,Midtown Center,Tech Park / University,10.8,23.5,Clear,31.0,0.0,17.6,88,84,0.955,1.03,3.5,33.1
+RIDE_100047,2026-09-12 05:04:35,5,Saturday,1,International Airport,Westside Residential,22.25,54.9,Heavy Rain,20.6,13.6,24.6,48,94,1.958,1.73,3.5,118.16
+RIDE_100048,2026-08-01 07:33:43,7,Saturday,1,Westside Residential,East Riverfront,12.71,26.1,Cloudy,24.8,0.0,11.4,55,82,1.491,1.35,3.5,47.47
+RIDE_100049,2026-08-18 08:17:20,8,Tuesday,0,Midtown Center,South Bay District,17.29,52.4,Clear,31.2,0.0,16.3,85,159,1.871,1.66,3.5,88.19
+RIDE_100050,2026-08-29 23:25:36,23,Saturday,1,Tech Park / University,Midtown Center,10.58,24.6,Fog,15.5,0.0,13.4,45,97,2.156,1.9,3.5,60.15
+RIDE_100051,2026-09-06 07:16:56,7,Sunday,1,International Airport,East Riverfront,16.55,41.5,Thunderstorm,17.0,10.6,39.4,34,74,2.176,1.92,3.5,105.87
+RIDE_100052,2026-09-21 11:48:49,11,Monday,0,Downtown Financial District,East Riverfront,4.26,13.5,Rain,16.6,1.4,28.0,66,55,0.833,1.0,3.5,19.33
+RIDE_100053,2026-09-01 11:20:18,11,Tuesday,0,South Bay District,Downtown Financial District,14.69,37.4,Rain,15.9,2.9,27.0,64,78,1.219,1.16,3.5,51.92
+RIDE_100054,2026-08-11 20:40:14,20,Tuesday,0,East Riverfront,South Bay District,18.42,58.4,Clear,25.8,0.0,19.5,51,170,3.333,2.96,3.5,166.17
+RIDE_100055,2026-08-30 20:33:35,20,Sunday,1,Tech Park / University,Downtown Financial District,9.88,24.5,Heavy Rain,16.2,3.0,43.5,37,89,2.405,2.12,3.5,66.45
+RIDE_100056,2026-08-24 09:16:17,9,Monday,0,Midtown Center,Downtown Financial District,3.83,10.2,Clear,26.2,0.0,4.3,80,142,1.775,1.58,3.5,24.59
+RIDE_100057,2026-09-17 04:26:23,4,Thursday,0,Midtown Center,South Bay District,18.73,39.6,Cloudy,20.3,0.0,18.5,45,47,1.044,1.07,3.5,52.49
+RIDE_100058,2026-09-21 17:17:43,17,Monday,0,International Airport,Midtown Center,22.43,67.2,Clear,30.3,0.0,12.4,41,175,4.268,3.5,3.5,248.59
+RIDE_100059,2026-09-16 03:29:17,3,Wednesday,0,International Airport,Tech Park / University,19.47,49.3,Rain,20.6,1.9,32.1,51,76,1.49,1.35,3.5,83.77
+RIDE_100060,2026-09-21 05:34:08,5,Monday,0,North Suburbs,Midtown Center,14.0,34.4,Heavy Rain,19.8,15.5,37.7,42,58,1.381,1.26,3.5,53.0
+RIDE_100061,2026-09-22 08:39:03,8,Tuesday,0,Tech Park / University,North Suburbs,19.69,74.0,Heavy Rain,14.4,19.4,23.1,54,150,2.778,2.46,3.5,161.57
+RIDE_100062,2026-08-31 06:21:05,6,Monday,0,North Suburbs,East Riverfront,14.99,36.7,Rain,20.4,2.7,42.1,58,92,1.586,1.43,3.5,63.19
+RIDE_100063,2026-09-06 06:07:58,6,Sunday,1,South Bay District,Westside Residential,20.9,44.0,Cloudy,24.3,0.0,18.5,69,84,1.217,1.16,3.5,64.42
+RIDE_100064,2026-09-13 20:02:20,20,Sunday,1,Midtown Center,International Airport,21.64,42.8,Cloudy,29.8,0.0,16.1,59,53,0.898,1.0,3.5,60.82
+RIDE_100065,2026-08-22 19:34:57,19,Saturday,1,Midtown Center,Tech Park / University,9.42,20.2,Clear,26.1,0.0,8.8,86,52,0.605,1.0,3.5,27.41
+RIDE_100066,2026-08-03 01:00:48,1,Monday,0,Tech Park / University,East Riverfront,6.17,12.9,Clear,30.6,0.0,11.1,68,61,0.897,1.0,3.5,19.84
+RIDE_100067,2026-08-22 09:08:37,9,Saturday,1,Downtown Financial District,Midtown Center,3.3,8.0,Clear,21.9,0.0,6.0,60,35,0.583,1.0,3.5,12.97
+RIDE_100068,2026-08-06 17:11:08,17,Thursday,0,Tech Park / University,Downtown Financial District,8.7,28.4,Clear,25.0,0.0,14.7,42,129,3.071,2.72,3.5,80.58
+RIDE_100069,2026-08-04 01:11:50,1,Tuesday,0,East Riverfront,Downtown Financial District,4.79,8.7,Clear,20.9,0.0,9.3,61,43,0.705,1.0,3.5,17.47
+RIDE_100070,2026-09-19 22:04:14,22,Saturday,1,Tech Park / University,International Airport,20.04,47.8,Rain,16.0,0.6,36.4,49,108,2.204,1.94,3.5,118.63
+RIDE_100071,2026-09-17 03:05:51,3,Thursday,0,Tech Park / University,East Riverfront,6.37,12.8,Clear,18.3,0.0,8.5,78,51,0.654,1.0,3.5,20.23
+RIDE_100072,2026-08-13 20:18:32,20,Thursday,0,South Bay District,Midtown Center,19.16,59.6,Cloudy,27.5,0.0,16.4,72,87,1.208,1.15,3.5,67.07
+RIDE_100073,2026-09-15 22:06:24,22,Tuesday,0,North Suburbs,Midtown Center,12.66,25.7,Clear,22.0,0.0,9.2,65,63,0.969,1.03,3.5,35.22
+RIDE_100074,2026-08-10 03:47:42,3,Monday,0,Midtown Center,North Suburbs,12.23,30.8,Fog,10.1,0.0,7.3,45,84,1.867,1.65,3.5,60.13
+RIDE_100075,2026-09-11 20:25:19,20,Friday,0,East Riverfront,Tech Park / University,5.96,24.0,Rain,20.7,0.7,16.5,54,230,4.259,3.5,3.5,84.91
+RIDE_100076,2026-09-09 21:56:15,21,Wednesday,0,South Bay District,North Suburbs,31.47,76.3,Rain,18.3,3.0,29.3,70,92,1.314,1.21,3.5,103.78
+RIDE_100077,2026-08-06 06:13:40,6,Thursday,0,Midtown Center,Downtown Financial District,4.17,11.0,Cloudy,27.9,0.0,16.1,77,66,0.857,1.0,3.5,16.24
+RIDE_100078,2026-09-09 02:10:32,2,Wednesday,0,East Riverfront,South Bay District,14.95,27.9,Cloudy,23.2,0.0,10.7,44,52,1.182,1.14,3.5,45.7
+RIDE_100079,2026-08-11 14:36:55,14,Tuesday,0,Tech Park / University,Midtown Center,10.51,25.3,Clear,19.9,0.0,3.0,48,40,0.833,1.0,3.5,31.24
+RIDE_100080,2026-08-19 11:13:07,11,Wednesday,0,South Bay District,Midtown Center,18.63,36.2,Clear,29.9,0.0,15.7,89,43,0.483,1.0,3.5,47.98
+RIDE_100081,2026-09-10 23:03:19,23,Thursday,0,International Airport,Tech Park / University,23.1,56.7,Rain,20.3,0.7,39.8,62,61,0.984,1.04,3.5,72.19
+RIDE_100082,2026-09-14 22:00:05,22,Monday,0,Tech Park / University,South Bay District,15.26,39.7,Heavy Rain,18.7,9.3,35.5,39,96,2.462,2.18,3.5,101.33
+RIDE_100083,2026-08-08 07:39:34,7,Saturday,1,South Bay District,North Suburbs,28.76,52.5,Cloudy,23.0,0.0,9.7,41,43,1.049,1.07,3.5,77.4
+RIDE_100084,2026-09-23 10:21:03,10,Wednesday,0,Midtown Center,Downtown Financial District,3.66,12.3,Rain,15.3,2.9,41.4,56,115,2.054,1.81,3.5,30.72
+RIDE_100085,2026-09-22 11:39:40,11,Tuesday,0,Downtown Financial District,Midtown Center,3.43,8.6,Clear,28.0,0.0,11.4,49,62,1.265,1.18,3.5,16.01
+RIDE_100086,2026-08-23 22:48:14,22,Sunday,1,International Airport,Westside Residential,24.54,50.0,Cloudy,26.5,0.0,11.5,33,57,1.727,1.54,3.5,106.98
+RIDE_100087,2026-09-17 03:37:33,3,Thursday,0,South Bay District,Midtown Center,18.19,35.5,Cloudy,29.6,0.0,19.3,79,67,0.848,1.0,3.5,46.85
+RIDE_100088,2026-09-08 22:29:29,22,Tuesday,0,Downtown Financial District,International Airport,21.65,43.9,Cloudy,30.8,0.0,5.4,57,54,0.947,1.02,3.5,62.12
+RIDE_100089,2026-09-06 19:04:16,19,Sunday,1,Downtown Financial District,Westside Residential,8.65,20.0,Clear,30.9,0.0,16.4,76,37,0.487,1.0,3.5,27.28
+RIDE_100090,2026-08-26 17:58:04,17,Wednesday,0,South Bay District,International Airport,32.88,95.9,Clear,19.1,0.0,4.8,58,124,2.138,1.88,3.5,184.46
+RIDE_100091,2026-09-11 01:40:43,1,Friday,0,South Bay District,Midtown Center,15.26,39.6,Rain,16.5,1.7,21.8,43,65,1.512,1.37,3.5,62.05
+RIDE_100092,2026-08-19 10:29:38,10,Wednesday,0,Westside Residential,Midtown Center,8.46,15.5,Clear,23.8,0.0,17.7,77,31,0.403,1.0,3.5,22.8
+RIDE_100093,2026-08-06 16:16:33,16,Thursday,0,Downtown Financial District,North Suburbs,18.36,34.6,Cloudy,18.5,0.0,18.5,93,53,0.57,1.0,3.5,48.11
+RIDE_100094,2026-08-31 10:45:07,10,Monday,0,Downtown Financial District,Midtown Center,3.29,8.3,Clear,28.9,0.0,7.7,65,57,0.877,1.0,3.5,12.72
+RIDE_100095,2026-09-26 17:13:56,17,Saturday,1,South Bay District,Westside Residential,22.48,42.6,Cloudy,25.8,0.0,17.6,79,78,0.987,1.04,3.5,58.96
+RIDE_100096,2026-09-21 13:36:48,13,Monday,0,International Airport,Downtown Financial District,22.48,42.0,Clear,29.2,0.0,8.9,69,58,0.841,1.0,3.5,63.39
+RIDE_100097,2026-09-19 07:19:34,7,Saturday,1,Midtown Center,South Bay District,18.86,35.1,Cloudy,22.1,0.0,15.1,89,31,0.348,1.0,3.5,51.0
+RIDE_100098,2026-08-19 01:00:12,1,Wednesday,0,Midtown Center,East Riverfront,3.04,11.4,Rain,16.7,0.9,17.3,35,78,2.229,1.97,3.5,30.17
+RIDE_100099,2026-08-07 14:21:37,14,Friday,0,Tech Park / University,Westside Residential,20.38,48.4,Rain,17.3,3.5,31.6,32,66,2.062,1.82,3.5,104.3
+RIDE_100100,2026-08-12 15:21:21,15,Wednesday,0,Tech Park / University,East Riverfront,7.04,18.5,Heavy Rain,19.8,14.8,39.2,51,59,1.157,1.13,3.5,28.36
+RIDE_100101,2026-09-27 17:19:48,17,Sunday,1,Downtown Financial District,East Riverfront,4.18,11.9,Clear,26.9,0.0,15.5,60,48,0.8,1.0,3.5,17.28
+RIDE_100102,2026-08-08 23:02:06,23,Saturday,1,North Suburbs,East Riverfront,17.45,36.5,Cloudy,22.7,0.0,17.0,35,73,2.086,1.84,3.5,86.1
+RIDE_100103,2026-09-26 16:03:18,16,Saturday,1,East Riverfront,International Airport,18.28,43.9,Heavy Rain,21.8,7.0,38.4,47,53,1.128,1.11,3.5,64.6
+RIDE_100104,2026-08-20 19:57:30,19,Thursday,0,East Riverfront,Midtown Center,3.03,9.2,Cloudy,28.4,0.0,14.9,57,132,2.316,2.04,3.5,27.82
+RIDE_100105,2026-08-26 18:55:36,18,Wednesday,0,North Suburbs,Midtown Center,14.63,47.2,Cloudy,27.6,0.0,17.0,46,156,3.391,3.01,3.5,139.48
+RIDE_100106,2026-08-30 03:02:37,3,Sunday,1,South Bay District,International Airport,37.96,71.8,Clear,18.2,0.0,5.3,70,35,0.5,1.0,3.5,98.9
+RIDE_100107,2026-08-08 01:02:15,1,Saturday,1,Downtown Financial District,Westside Residential,8.76,19.0,Cloudy,26.0,0.0,17.2,43,106,2.465,2.18,3.5,57.91
+RIDE_100108,2026-09-24 15:52:12,15,Thursday,0,Midtown Center,Downtown Financial District,3.48,9.8,Clear,28.8,0.0,4.2,50,69,1.38,1.26,3.5,18.39
+RIDE_100109,2026-09-22 04:46:44,4,Tuesday,0,Tech Park / University,East Riverfront,7.38,15.8,Cloudy,31.3,0.0,9.7,63,83,1.317,1.21,3.5,27.24
+RIDE_100110,2026-08-26 17:57:42,17,Wednesday,0,International Airport,Tech Park / University,18.76,52.9,Cloudy,20.3,0.0,17.3,49,141,2.878,2.55,3.5,152.66
+RIDE_100111,2026-08-07 16:17:43,16,Friday,0,Tech Park / University,International Airport,19.3,39.7,Clear,27.9,0.0,13.2,64,68,1.062,1.08,3.5,60.29
+RIDE_100112,2026-08-28 16:04:07,16,Friday,0,International Airport,Westside Residential,29.4,73.9,Rain,18.2,2.9,17.6,43,75,1.744,1.56,3.5,134.6
+RIDE_100113,2026-09-22 17:47:22,17,Tuesday,0,Westside Residential,East Riverfront,11.56,42.9,Thunderstorm,19.2,22.8,35.8,48,229,4.771,3.5,3.5,144.52
+RIDE_100114,2026-09-21 08:31:16,8,Monday,0,Downtown Financial District,North Suburbs,15.18,47.8,Clear,28.2,0.0,6.3,48,146,3.042,2.7,3.5,125.61
+RIDE_100115,2026-09-23 20:19:01,20,Wednesday,0,Westside Residential,North Suburbs,12.18,34.0,Cloudy,23.1,0.0,12.5,72,152,2.111,1.86,3.5,68.78
+RIDE_100116,2026-08-11 01:22:26,1,Tuesday,0,International Airport,Tech Park / University,20.76,50.3,Rain,19.3,2.4,37.1,59,59,1.0,1.05,3.5,65.2
+RIDE_100117,2026-08-12 04:58:05,4,Wednesday,0,Midtown Center,North Suburbs,15.01,30.1,Clear,20.6,0.0,9.5,71,64,0.901,1.0,3.5,40.39
+RIDE_100118,2026-09-23 17:06:16,17,Wednesday,0,International Airport,Tech Park / University,20.82,61.6,Clear,23.6,0.0,4.6,60,113,1.883,1.67,3.5,110.31
+RIDE_100119,2026-08-28 08:32:22,8,Friday,0,Tech Park / University,North Suburbs,20.26,62.8,Clear,21.3,0.0,3.7,37,179,4.838,3.5,3.5,212.43
+RIDE_100120,2026-09-03 06:58:08,6,Thursday,0,Tech Park / University,North Suburbs,19.77,49.1,Fog,16.3,0.0,5.9,45,68,1.511,1.37,3.5,75.27
+RIDE_100121,2026-08-26 15:07:37,15,Wednesday,0,South Bay District,International Airport,30.57,74.7,Thunderstorm,21.5,7.3,34.5,67,108,1.612,1.45,3.5,129.82
+RIDE_100122,2026-08-05 22:22:12,22,Wednesday,0,Midtown Center,North Suburbs,11.62,29.4,Rain,14.5,1.7,44.1,74,56,0.757,1.0,3.5,35.58
+RIDE_100123,2026-09-11 03:00:11,3,Friday,0,Westside Residential,Downtown Financial District,9.1,19.4,Cloudy,20.2,0.0,16.9,77,42,0.545,1.0,3.5,26.17
+RIDE_100124,2026-08-01 08:15:43,8,Saturday,1,East Riverfront,South Bay District,16.35,31.7,Cloudy,19.3,0.0,17.9,42,57,1.357,1.25,3.5,54.44
+RIDE_100125,2026-08-13 16:49:54,16,Thursday,0,Westside Residential,Midtown Center,9.13,16.5,Clear,22.6,0.0,18.8,50,63,1.26,1.18,3.5,30.14
+RIDE_100126,2026-09-12 21:33:04,21,Saturday,1,North Suburbs,Westside Residential,10.72,22.5,Rain,14.6,2.2,21.6,43,69,1.605,1.44,3.5,45.58
+RIDE_100127,2026-08-01 22:31:55,22,Saturday,1,Midtown Center,Downtown Financial District,3.99,12.2,Rain,19.4,1.7,32.0,57,166,2.912,2.58,3.5,44.23
+RIDE_100128,2026-08-15 11:19:17,11,Saturday,1,Downtown Financial District,South Bay District,14.76,31.2,Cloudy,27.5,0.0,13.5,77,36,0.468,1.0,3.5,40.7
+RIDE_100129,2026-09-05 20:20:08,20,Saturday,1,International Airport,Westside Residential,21.44,54.5,Rain,21.3,1.3,15.0,30,61,2.033,1.79,3.5,116.34
+RIDE_100130,2026-08-13 08:58:10,8,Thursday,0,Downtown Financial District,Tech Park / University,8.41,28.0,Clear,18.1,0.0,16.9,70,61,0.871,1.0,3.5,29.0
+RIDE_100131,2026-09-05 09:41:58,9,Saturday,1,Downtown Financial District,Tech Park / University,9.28,20.1,Clear,28.6,0.0,16.4,59,61,1.034,1.07,3.5,29.34
+RIDE_100132,2026-08-21 09:30:49,9,Friday,0,Tech Park / University,North Suburbs,23.25,72.1,Cloudy,18.8,0.0,4.3,57,173,3.035,2.69,3.5,185.32
+RIDE_100133,2026-08-10 23:31:35,23,Monday,0,East Riverfront,South Bay District,16.36,31.8,Clear,18.9,0.0,17.0,86,44,0.512,1.0,3.5,44.17
+RIDE_100134,2026-09-24 08:37:23,8,Thursday,0,North Suburbs,Westside Residential,9.74,29.3,Clear,24.6,0.0,19.1,70,88,1.257,1.18,3.5,38.21
+RIDE_100135,2026-08-16 00:08:07,0,Sunday,1,Tech Park / University,South Bay District,16.24,40.5,Rain,15.1,1.3,41.0,60,151,2.517,2.23,3.5,106.29
+RIDE_100136,2026-08-16 18:39:23,18,Sunday,1,International Airport,Westside Residential,23.99,45.1,Clear,28.1,0.0,15.7,74,78,1.054,1.08,3.5,72.22
+RIDE_100137,2026-08-03 09:45:23,9,Monday,0,International Airport,North Suburbs,20.76,62.6,Cloudy,31.6,0.0,6.2,57,119,2.088,1.84,3.5,123.12
+RIDE_100138,2026-09-02 06:02:53,6,Wednesday,0,North Suburbs,South Bay District,30.55,59.1,Clear,18.5,0.0,18.7,42,49,1.167,1.13,3.5,87.63
+RIDE_100139,2026-08-25 02:16:17,2,Tuesday,0,Westside Residential,Midtown Center,7.17,14.3,Clear,27.6,0.0,10.3,77,77,1.0,1.05,3.5,23.44
+RIDE_100140,2026-08-11 11:52:51,11,Tuesday,0,North Suburbs,South Bay District,30.12,57.8,Clear,29.2,0.0,8.3,52,46,0.885,1.0,3.5,73.61
+RIDE_100141,2026-08-04 18:14:05,18,Tuesday,0,South Bay District,Midtown Center,17.55,52.2,Clear,27.7,0.0,17.6,64,127,1.984,1.75,3.5,91.97
+RIDE_100142,2026-08-20 09:02:18,9,Thursday,0,South Bay District,International Airport,39.71,116.9,Clear,25.0,0.0,13.5,47,120,2.553,2.26,3.5,262.75
+RIDE_100143,2026-08-30 15:08:46,15,Sunday,1,Tech Park / University,Midtown Center,8.58,18.4,Clear,18.5,0.0,4.3,61,68,1.115,1.11,3.5,28.17
+RIDE_100144,2026-08-03 07:08:31,7,Monday,0,Tech Park / University,Westside Residential,18.72,71.8,Rain,15.3,1.2,18.1,38,94,2.474,2.19,3.5,136.1
+RIDE_100145,2026-09-01 20:54:20,20,Tuesday,0,Westside Residential,South Bay District,22.3,66.0,Cloudy,29.0,0.0,13.4,39,97,2.487,2.2,3.5,144.86
+RIDE_100146,2026-08-07 17:45:43,17,Friday,0,Westside Residential,International Airport,26.75,78.7,Cloudy,28.2,0.0,4.4,69,80,1.159,1.13,3.5,93.18
+RIDE_100147,2026-09-19 11:00:04,11,Saturday,1,North Suburbs,East Riverfront,17.78,39.8,Clear,20.5,0.0,16.4,94,61,0.649,1.0,3.5,48.69
+RIDE_100148,2026-09-22 01:28:23,1,Tuesday,0,East Riverfront,Downtown Financial District,4.75,11.8,Clear,31.9,0.0,19.6,42,57,1.357,1.25,3.5,21.07
+RIDE_100149,2026-08-12 04:45:56,4,Wednesday,0,Westside Residential,Midtown Center,7.05,16.6,Clear,21.6,0.0,10.9,69,50,0.725,1.0,3.5,23.6
+RIDE_100150,2026-09-26 08:52:19,8,Saturday,1,Westside Residential,Downtown Financial District,8.19,17.7,Clear,23.2,0.0,19.8,63,79,1.254,1.18,3.5,30.53
+RIDE_100151,2026-08-11 12:35:46,12,Tuesday,0,North Suburbs,International Airport,18.19,47.9,Rain,21.0,2.2,42.0,35,87,2.486,2.2,3.5,128.55
+RIDE_100152,2026-08-31 10:55:16,10,Monday,0,North Suburbs,Westside Residential,12.51,25.9,Clear,28.0,0.0,18.5,62,71,1.145,1.12,3.5,39.21
+RIDE_100153,2026-09-19 15:42:07,15,Saturday,1,Midtown Center,Westside Residential,8.17,16.3,Clear,30.2,0.0,10.6,78,54,0.692,1.0,3.5,24.89
+RIDE_100154,2026-09-25 23:32:51,23,Friday,0,Tech Park / University,International Airport,21.29,41.2,Clear,23.6,0.0,17.6,44,30,0.682,1.0,3.5,60.31
+RIDE_100155,2026-08-05 07:25:41,7,Wednesday,0,North Suburbs,Downtown Financial District,18.63,55.4,Cloudy,21.3,0.0,4.2,47,86,1.83,1.62,3.5,91.05
+RIDE_100156,2026-09-20 11:30:07,11,Sunday,1,Tech Park / University,International Airport,18.62,36.4,Cloudy,27.9,0.0,5.8,59,57,0.966,1.03,3.5,57.14
+RIDE_100157,2026-09-11 20:59:44,20,Friday,0,Midtown Center,North Suburbs,14.4,53.4,Rain,20.9,2.5,21.2,30,248,8.267,3.5,3.5,169.8
+RIDE_100158,2026-09-02 01:25:18,1,Wednesday,0,East Riverfront,North Suburbs,13.79,27.1,Clear,19.4,0.0,12.9,51,71,1.392,1.27,3.5,46.09
+RIDE_100159,2026-08-13 02:23:52,2,Thursday,0,Westside Residential,East Riverfront,11.74,24.2,Clear,22.5,0.0,19.5,78,60,0.769,1.0,3.5,32.09
+RIDE_100160,2026-08-31 00:41:07,0,Monday,0,North Suburbs,International Airport,17.61,35.1,Cloudy,19.8,0.0,5.3,91,45,0.495,1.0,3.5,51.93
+RIDE_100161,2026-09-09 01:39:39,1,Wednesday,0,Westside Residential,East Riverfront,9.85,20.3,Clear,28.2,0.0,5.7,77,34,0.442,1.0,3.5,28.84
+RIDE_100162,2026-08-13 08:36:07,8,Thursday,0,Tech Park / University,Westside Residential,16.16,63.0,Rain,20.1,3.5,18.4,51,238,4.667,3.5,3.5,192.61
+RIDE_100163,2026-09-06 19:28:21,19,Sunday,1,International Airport,East Riverfront,18.2,35.7,Clear,26.5,0.0,8.4,72,70,0.972,1.04,3.5,54.77
+RIDE_100164,2026-09-25 06:06:40,6,Friday,0,Westside Residential,Tech Park / University,15.39,32.0,Cloudy,28.7,0.0,18.7,58,35,0.603,1.0,3.5,41.8
+RIDE_100165,2026-09-23 04:47:10,4,Wednesday,0,Downtown Financial District,Tech Park / University,9.23,21.1,Clear,27.1,0.0,8.6,40,41,1.025,1.06,3.5,31.32
+RIDE_100166,2026-08-28 20:33:26,20,Friday,0,Tech Park / University,Westside Residential,16.94,51.5,Cloudy,26.4,0.0,12.3,64,132,2.062,1.82,3.5,92.9
+RIDE_100167,2026-09-26 07:27:44,7,Saturday,1,East Riverfront,Tech Park / University,7.46,13.5,Cloudy,25.6,0.0,19.2,41,35,0.854,1.0,3.5,22.66
+RIDE_100168,2026-09-12 21:26:09,21,Saturday,1,South Bay District,East Riverfront,15.75,31.2,Clear,25.7,0.0,15.7,83,72,0.867,1.0,3.5,42.7
+RIDE_100169,2026-08-21 17:57:37,17,Friday,0,South Bay District,North Suburbs,33.42,96.9,Clear,31.1,0.0,9.0,56,92,1.643,1.47,3.5,138.17
+RIDE_100170,2026-08-17 11:24:34,11,Monday,0,Midtown Center,Tech Park / University,10.89,21.5,Cloudy,22.4,0.0,13.4,57,31,0.544,1.0,3.5,29.8
+RIDE_100171,2026-09-20 01:05:24,1,Sunday,1,East Riverfront,Downtown Financial District,3.89,6.9,Clear,27.5,0.0,6.1,32,109,3.406,3.03,3.5,43.76
+RIDE_100172,2026-08-23 19:17:00,19,Sunday,1,Westside Residential,Midtown Center,9.42,20.0,Cloudy,29.3,0.0,12.4,84,71,0.845,1.0,3.5,29.73
+RIDE_100173,2026-08-20 08:00:22,8,Thursday,0,International Airport,Downtown Financial District,23.96,91.6,Rain,15.4,2.8,25.8,58,97,1.672,1.5,3.5,124.98
+RIDE_100174,2026-08-05 11:41:08,11,Wednesday,0,Tech Park / University,Westside Residential,18.62,50.5,Rain,15.2,3.2,27.7,36,96,2.667,2.36,3.5,127.28
+RIDE_100175,2026-09-29 08:22:17,8,Tuesday,0,Midtown Center,Westside Residential,7.33,24.1,Clear,21.2,0.0,6.5,49,68,1.388,1.27,3.5,31.9
+RIDE_100176,2026-09-10 05:43:03,5,Thursday,0,Tech Park / University,North Suburbs,23.01,46.7,Clear,24.2,0.0,15.3,50,68,1.36,1.25,3.5,74.37
+RIDE_100177,2026-09-07 06:44:04,6,Monday,0,South Bay District,Tech Park / University,15.11,32.0,Clear,30.7,0.0,16.1,75,69,0.92,1.01,3.5,43.33
+RIDE_100178,2026-08-24 16:31:29,16,Monday,0,International Airport,North Suburbs,17.96,36.4,Clear,22.8,0.0,13.5,52,78,1.5,1.36,3.5,72.63
+RIDE_100179,2026-08-01 12:55:13,12,Saturday,1,Midtown Center,South Bay District,14.62,29.0,Cloudy,21.8,0.0,13.1,42,83,1.976,1.74,3.5,68.05
+RIDE_100180,2026-09-11 06:39:44,6,Friday,0,Tech Park / University,Midtown Center,8.91,15.8,Clear,23.3,0.0,9.2,74,63,0.851,1.0,3.5,25.26
+RIDE_100181,2026-09-20 06:55:44,6,Sunday,1,South Bay District,Downtown Financial District,13.65,26.2,Clear,31.5,0.0,13.8,86,84,0.977,1.04,3.5,38.74
+RIDE_100182,2026-09-24 02:50:58,2,Thursday,0,Tech Park / University,South Bay District,14.39,36.7,Rain,19.3,1.7,38.9,41,74,1.805,1.6,3.5,69.43
+RIDE_100183,2026-08-12 18:47:09,18,Wednesday,0,South Bay District,Midtown Center,18.89,57.6,Cloudy,26.7,0.0,4.5,73,115,1.575,1.42,3.5,81.41
+RIDE_100184,2026-09-15 02:41:49,2,Tuesday,0,East Riverfront,South Bay District,13.48,27.4,Clear,21.7,0.0,9.1,60,31,0.517,1.0,3.5,37.86
+RIDE_100185,2026-09-12 23:16:14,23,Saturday,1,North Suburbs,South Bay District,27.48,53.6,Clear,24.3,0.0,13.2,70,68,0.971,1.04,3.5,72.31
+RIDE_100186,2026-09-23 04:38:03,4,Wednesday,0,South Bay District,Midtown Center,16.34,42.1,Heavy Rain,20.4,22.0,38.7,69,52,0.754,1.0,3.5,49.02
+RIDE_100187,2026-09-16 02:04:17,2,Wednesday,0,South Bay District,International Airport,32.56,82.4,Thunderstorm,20.6,16.7,19.0,71,91,1.282,1.19,3.5,115.16
+RIDE_100188,2026-08-25 00:06:37,0,Tuesday,0,Westside Residential,South Bay District,17.41,35.4,Cloudy,23.6,0.0,5.5,92,63,0.685,1.0,3.5,46.66
+RIDE_100189,2026-09-20 14:42:59,14,Sunday,1,South Bay District,East Riverfront,15.52,31.9,Clear,25.1,0.0,10.5,45,61,1.356,1.24,3.5,51.46
+RIDE_100190,2026-08-24 05:28:59,5,Monday,0,Westside Residential,Tech Park / University,18.49,36.9,Clear,18.9,0.0,16.3,49,54,1.102,1.1,3.5,53.56
+RIDE_100191,2026-08-08 12:32:57,12,Saturday,1,Westside Residential,Midtown Center,9.48,20.6,Clear,20.0,0.0,5.1,85,80,0.941,1.02,3.5,28.23
+RIDE_100192,2026-08-27 09:08:31,9,Thursday,0,East Riverfront,International Airport,19.88,57.8,Cloudy,21.2,0.0,7.0,87,114,1.31,1.21,3.5,76.72
+RIDE_100193,2026-09-22 10:38:45,10,Tuesday,0,Midtown Center,International Airport,22.22,44.5,Clear,20.7,0.0,9.3,67,51,0.761,1.0,3.5,63.31
+RIDE_100194,2026-08-15 15:27:39,15,Saturday,1,Tech Park / University,Westside Residential,19.18,39.3,Clear,23.8,0.0,11.2,93,67,0.72,1.0,3.5,50.3
+RIDE_100195,2026-08-15 20:03:43,20,Saturday,1,Tech Park / University,Downtown Financial District,8.48,17.9,Cloudy,21.0,0.0,3.2,89,74,0.831,1.0,3.5,26.19
+RIDE_100196,2026-09-10 06:42:44,6,Thursday,0,North Suburbs,International Airport,16.2,30.6,Cloudy,24.4,0.0,17.4,94,82,0.872,1.0,3.5,47.91
+RIDE_100197,2026-09-22 16:22:32,16,Tuesday,0,South Bay District,Tech Park / University,13.79,36.9,Rain,17.0,2.2,26.8,64,101,1.578,1.42,3.5,59.12
+RIDE_100198,2026-08-07 01:05:22,1,Friday,0,Tech Park / University,South Bay District,14.32,28.8,Clear,29.8,0.0,3.7,79,50,0.633,1.0,3.5,40.19
+RIDE_100199,2026-09-10 19:00:19,19,Thursday,0,North Suburbs,South Bay District,28.26,83.5,Cloudy,21.2,0.0,18.1,45,128,2.844,2.52,3.5,205.21
+RIDE_100200,2026-09-26 17:00:13,17,Saturday,1,Downtown Financial District,South Bay District,11.34,19.6,Clear,28.4,0.0,14.2,90,53,0.589,1.0,3.5,31.21
+RIDE_100201,2026-09-25 21:27:20,21,Friday,0,North Suburbs,Tech Park / University,21.5,52.5,Thunderstorm,21.5,24.3,38.5,70,95,1.357,1.25,3.5,78.08
+RIDE_100202,2026-08-01 13:44:19,13,Saturday,1,East Riverfront,International Airport,19.23,47.9,Heavy Rain,15.8,20.0,44.3,39,95,2.436,2.15,3.5,129.25
+RIDE_100203,2026-09-07 20:44:05,20,Monday,0,North Suburbs,Westside Residential,13.37,41.8,Cloudy,30.5,0.0,8.5,55,87,1.582,1.43,3.5,60.31
+RIDE_100204,2026-09-23 00:34:49,0,Wednesday,0,Tech Park / University,Westside Residential,17.75,34.0,Cloudy,20.2,0.0,3.7,56,69,1.232,1.17,3.5,54.78
+RIDE_100205,2026-08-22 07:17:22,7,Saturday,1,Westside Residential,Tech Park / University,16.92,34.0,Cloudy,23.4,0.0,5.8,91,59,0.648,1.0,3.5,45.7
+RIDE_100206,2026-09-17 03:37:40,3,Thursday,0,Downtown Financial District,Westside Residential,8.39,17.2,Clear,31.9,0.0,14.4,69,84,1.217,1.16,3.5,29.83
+RIDE_100207,2026-09-02 15:14:18,15,Wednesday,0,North Suburbs,East Riverfront,15.61,29.3,Cloudy,21.1,0.0,19.6,85,69,0.812,1.0,3.5,41.69
+RIDE_100208,2026-08-17 00:34:55,0,Monday,0,South Bay District,Midtown Center,14.53,28.4,Clear,28.5,0.0,7.6,67,58,0.866,1.0,3.5,39.65
+RIDE_100209,2026-09-21 20:35:53,20,Monday,0,Downtown Financial District,Westside Residential,8.9,28.9,Clear,31.5,0.0,11.3,51,108,2.118,1.87,3.5,57.3
+RIDE_100210,2026-09-27 11:12:36,11,Sunday,1,Downtown Financial District,Midtown Center,4.02,9.3,Clear,20.1,0.0,4.6,83,76,0.916,1.01,3.5,16.31
+RIDE_100211,2026-09-11 14:44:24,14,Friday,0,International Airport,South Bay District,30.5,57.9,Cloudy,29.4,0.0,15.6,42,30,0.714,1.0,3.5,80.62
+RIDE_100212,2026-09-14 19:50:07,19,Monday,0,International Airport,Downtown Financial District,26.13,78.4,Cloudy,22.4,0.0,15.6,77,151,1.961,1.73,3.5,138.56
+RIDE_100213,2026-08-26 06:12:29,6,Wednesday,0,North Suburbs,International Airport,18.7,46.3,Rain,20.7,3.4,15.3,54,107,1.981,1.74,3.5,101.04
+RIDE_100214,2026-08-21 13:12:15,13,Friday,0,South Bay District,International Airport,38.49,97.0,Thunderstorm,17.6,10.5,36.7,47,114,2.426,2.14,3.5,234.47
+RIDE_100215,2026-09-02 18:25:59,18,Wednesday,0,North Suburbs,International Airport,15.56,46.0,Cloudy,23.0,0.0,16.5,49,101,2.061,1.81,3.5,94.75
+RIDE_100216,2026-09-10 22:19:02,22,Thursday,0,Westside Residential,South Bay District,19.98,38.5,Cloudy,25.8,0.0,13.3,73,59,0.808,1.0,3.5,52.56
+RIDE_100217,2026-08-08 22:51:19,22,Saturday,1,South Bay District,Downtown Financial District,14.7,29.7,Cloudy,19.1,0.0,4.0,68,76,1.118,1.11,3.5,45.67
+RIDE_100218,2026-09-22 08:56:14,8,Tuesday,0,Downtown Financial District,Tech Park / University,9.43,30.4,Clear,22.6,0.0,10.4,59,132,2.237,1.97,3.5,63.11
+RIDE_100219,2026-08-22 18:28:31,18,Saturday,1,Midtown Center,South Bay District,15.89,33.1,Clear,26.9,0.0,11.4,86,56,0.651,1.0,3.5,43.96
+RIDE_100220,2026-08-04 21:48:29,21,Tuesday,0,Downtown Financial District,International Airport,26.67,53.1,Clear,25.9,0.0,19.7,42,42,1.0,1.05,3.5,78.0
+RIDE_100221,2026-08-20 08:32:38,8,Thursday,0,Downtown Financial District,East Riverfront,4.56,14.1,Cloudy,31.0,0.0,16.3,50,149,2.98,2.64,3.5,45.74
+RIDE_100222,2026-08-15 19:04:35,19,Saturday,1,Tech Park / University,Midtown Center,9.85,20.6,Clear,31.1,0.0,15.0,65,33,0.508,1.0,3.5,29.07
+RIDE_100223,2026-09-15 23:28:38,23,Tuesday,0,Midtown Center,East Riverfront,2.55,7.3,Clear,21.2,0.0,5.2,70,49,0.7,1.0,3.5,12.35
+RIDE_100224,2026-08-22 03:53:39,3,Saturday,1,South Bay District,East Riverfront,13.64,27.2,Clear,22.0,0.0,7.4,74,84,1.135,1.12,3.5,42.3
+RIDE_100225,2026-08-25 21:05:27,21,Tuesday,0,East Riverfront,Midtown Center,2.81,5.1,Rain,20.2,2.1,17.0,59,78,1.322,1.22,3.5,16.71
+RIDE_100226,2026-09-28 19:49:56,19,Monday,0,Midtown Center,South Bay District,16.15,62.9,Heavy Rain,19.3,2.5,43.9,28,250,8.929,3.5,3.5,191.13
+RIDE_100227,2026-08-16 21:36:07,21,Sunday,1,Westside Residential,Downtown Financial District,7.57,15.0,Cloudy,24.5,0.0,19.5,51,70,1.373,1.26,3.5,29.16
+RIDE_100228,2026-09-26 04:25:59,4,Saturday,1,Downtown Financial District,Tech Park / University,10.19,21.4,Cloudy,31.7,0.0,6.9,67,72,1.075,1.09,3.5,32.21
+RIDE_100229,2026-09-25 21:42:13,21,Friday,0,North Suburbs,Tech Park / University,22.08,42.7,Clear,24.4,0.0,11.2,60,34,0.567,1.0,3.5,58.38
+RIDE_100230,2026-08-20 06:08:30,6,Thursday,0,Midtown Center,East Riverfront,2.95,7.3,Cloudy,25.6,0.0,4.1,79,67,0.848,1.0,3.5,13.95
+RIDE_100231,2026-08-24 13:52:48,13,Monday,0,Midtown Center,North Suburbs,11.06,29.1,Rain,16.1,1.2,19.9,30,106,3.533,3.14,3.5,107.42
+RIDE_100232,2026-08-30 06:44:18,6,Sunday,1,Midtown Center,South Bay District,15.12,33.1,Clear,31.3,0.0,12.5,67,55,0.821,1.0,3.5,43.55
+RIDE_100233,2026-09-24 22:43:06,22,Thursday,0,Downtown Financial District,Tech Park / University,8.34,16.4,Clear,22.0,0.0,9.6,74,35,0.473,1.0,3.5,23.4
+RIDE_100234,2026-09-21 17:23:11,17,Monday,0,North Suburbs,East Riverfront,14.88,43.7,Clear,24.2,0.0,6.3,41,72,1.756,1.56,3.5,71.44
+RIDE_100235,2026-09-05 23:29:33,23,Saturday,1,Midtown Center,East Riverfront,2.85,7.9,Cloudy,20.7,0.0,18.2,43,118,2.744,2.43,3.5,30.67
+RIDE_100236,2026-09-03 03:07:34,3,Thursday,0,Downtown Financial District,South Bay District,12.7,32.2,Heavy Rain,18.1,5.9,32.9,75,54,0.72,1.0,3.5,39.35
+RIDE_100237,2026-09-10 18:48:28,18,Thursday,0,South Bay District,Downtown Financial District,13.8,40.2,Clear,30.4,0.0,16.7,70,208,2.971,2.63,3.5,111.68
+RIDE_100238,2026-09-12 02:10:57,2,Saturday,1,East Riverfront,North Suburbs,17.31,33.2,Clear,20.3,0.0,3.2,52,54,1.038,1.07,3.5,49.33
+RIDE_100239,2026-09-14 15:16:13,15,Monday,0,International Airport,Westside Residential,28.53,70.4,Rain,19.7,2.4,24.4,38,44,1.158,1.13,3.5,92.72
+RIDE_100240,2026-08-18 02:25:43,2,Tuesday,0,Westside Residential,East Riverfront,12.25,24.1,Clear,20.4,0.0,15.1,65,62,0.954,1.03,3.5,34.86
+RIDE_100241,2026-09-22 06:02:01,6,Tuesday,0,South Bay District,Tech Park / University,13.9,29.3,Cloudy,28.5,0.0,14.1,87,51,0.586,1.0,3.5,39.15
+RIDE_100242,2026-09-12 06:57:43,6,Saturday,1,Westside Residential,International Airport,28.41,53.9,Clear,18.4,0.0,15.6,73,31,0.425,1.0,3.5,76.62
+RIDE_100243,2026-08-24 20:02:42,20,Monday,0,Midtown Center,Tech Park / University,10.41,41.3,Thunderstorm,14.6,3.7,25.2,35,185,5.286,3.5,3.5,134.09
+RIDE_100244,2026-09-13 18:26:41,18,Sunday,1,Tech Park / University,South Bay District,16.39,41.2,Rain,19.3,3.3,22.8,56,49,0.875,1.0,3.5,47.73
+RIDE_100245,2026-09-15 02:50:57,2,Tuesday,0,North Suburbs,International Airport,18.32,46.6,Heavy Rain,17.0,14.6,44.3,40,59,1.475,1.34,3.5,78.41
+RIDE_100246,2026-08-03 18:52:33,18,Monday,0,South Bay District,North Suburbs,33.86,127.7,Rain,20.7,2.9,44.5,41,97,2.366,2.09,3.5,222.69
+RIDE_100247,2026-09-01 13:20:16,13,Tuesday,0,International Airport,Westside Residential,25.89,51.7,Clear,21.4,0.0,3.2,91,54,0.593,1.0,3.5,70.65
+RIDE_100248,2026-08-21 14:16:30,14,Friday,0,East Riverfront,South Bay District,16.38,32.6,Clear,30.3,0.0,17.9,85,51,0.6,1.0,3.5,43.81
+RIDE_100249,2026-08-26 02:00:17,2,Wednesday,0,East Riverfront,International Airport,20.98,40.2,Clear,26.2,0.0,19.9,89,50,0.562,1.0,3.5,59.21
+RIDE_100250,2026-09-27 21:08:30,21,Sunday,1,Westside Residential,East Riverfront,12.26,24.2,Cloudy,19.6,0.0,4.6,48,33,0.688,1.0,3.5,34.38
+RIDE_100251,2026-08-01 23:39:13,23,Saturday,1,Tech Park / University,Downtown Financial District,10.9,24.6,Cloudy,19.9,0.0,8.8,80,87,1.087,1.09,3.5,34.78
+RIDE_100252,2026-08-24 10:24:01,10,Monday,0,North Suburbs,Tech Park / University,22.76,44.4,Cloudy,19.8,0.0,7.0,51,74,1.451,1.32,3.5,76.03
+RIDE_100253,2026-09-23 21:39:15,21,Wednesday,0,Tech Park / University,North Suburbs,25.2,49.4,Clear,23.7,0.0,18.2,57,46,0.807,1.0,3.5,64.02
+RIDE_100254,2026-09-16 05:22:38,5,Wednesday,0,South Bay District,Tech Park / University,16.56,32.2,Clear,24.6,0.0,10.7,84,78,0.929,1.01,3.5,46.24
+RIDE_100255,2026-08-02 16:10:46,16,Sunday,1,Midtown Center,Tech Park / University,9.74,19.5,Cloudy,26.3,0.0,12.1,88,75,0.852,1.0,3.5,28.98
+RIDE_100256,2026-08-22 12:21:25,12,Saturday,1,North Suburbs,East Riverfront,15.21,29.4,Clear,21.1,0.0,9.7,93,70,0.753,1.0,3.5,40.74
+RIDE_100257,2026-08-24 14:56:31,14,Monday,0,Westside Residential,North Suburbs,12.07,27.5,Clear,22.8,0.0,11.6,80,68,0.85,1.0,3.5,35.0
+RIDE_100258,2026-09-26 11:07:21,11,Saturday,1,East Riverfront,Tech Park / University,7.99,18.2,Clear,21.8,0.0,9.7,83,48,0.578,1.0,3.5,24.92
+RIDE_100259,2026-09-23 17:41:07,17,Wednesday,0,East Riverfront,Tech Park / University,7.36,22.5,Cloudy,22.3,0.0,17.0,54,135,2.5,2.21,3.5,56.51
+RIDE_100260,2026-09-23 10:29:53,10,Wednesday,0,East Riverfront,International Airport,17.63,33.8,Clear,26.5,0.0,14.7,41,33,0.805,1.0,3.5,49.76
+RIDE_100261,2026-09-14 01:18:11,1,Monday,0,Westside Residential,International Airport,24.46,47.5,Clear,23.9,0.0,15.8,72,41,0.569,1.0,3.5,67.0
+RIDE_100262,2026-08-25 09:48:46,9,Tuesday,0,Tech Park / University,Downtown Financial District,11.0,34.0,Cloudy,27.5,0.0,9.2,49,67,1.367,1.25,3.5,45.01
+RIDE_100263,2026-08-19 16:45:14,16,Wednesday,0,East Riverfront,Downtown Financial District,4.97,11.4,Rain,21.2,0.9,17.0,38,73,1.921,1.7,3.5,31.09
+RIDE_100264,2026-09-22 00:39:12,0,Tuesday,0,International Airport,Midtown Center,19.64,40.8,Cloudy,18.6,0.0,5.1,88,60,0.682,1.0,3.5,57.08
+RIDE_100265,2026-08-22 00:12:45,0,Saturday,1,South Bay District,International Airport,29.45,55.1,Clear,29.9,0.0,9.9,72,144,2.0,1.76,3.5,138.29
+RIDE_100266,2026-09-27 05:50:13,5,Sunday,1,Westside Residential,Downtown Financial District,8.08,16.7,Cloudy,26.1,0.0,15.9,62,69,1.113,1.11,3.5,27.34
+RIDE_100267,2026-08-19 20:19:36,20,Wednesday,0,Westside Residential,Midtown Center,7.9,24.6,Cloudy,25.2,0.0,5.8,42,60,1.429,1.3,3.5,35.61
+RIDE_100268,2026-09-05 00:54:49,0,Saturday,1,International Airport,Tech Park / University,20.4,37.8,Clear,18.1,0.0,9.6,53,63,1.189,1.14,3.5,66.38
+RIDE_100269,2026-08-02 08:58:05,8,Sunday,1,International Airport,Tech Park / University,18.42,46.1,Thunderstorm,19.5,12.4,19.2,34,71,2.088,1.84,3.5,109.24
+RIDE_100270,2026-08-05 10:03:33,10,Wednesday,0,Downtown Financial District,East Riverfront,3.77,8.7,Clear,23.4,0.0,5.7,89,35,0.393,1.0,3.5,15.96
+RIDE_100271,2026-08-29 08:43:39,8,Saturday,1,International Airport,North Suburbs,17.28,43.4,Heavy Rain,21.6,4.7,24.4,51,48,0.941,1.02,3.5,58.12
+RIDE_100272,2026-09-17 15:49:48,15,Thursday,0,Midtown Center,South Bay District,16.36,35.0,Clear,25.6,0.0,5.6,88,42,0.477,1.0,3.5,44.93
+RIDE_100273,2026-08-02 04:34:49,4,Sunday,1,Westside Residential,Tech Park / University,19.55,41.7,Clear,22.2,0.0,7.4,90,78,0.867,1.0,3.5,52.42
+RIDE_100274,2026-09-16 11:29:05,11,Wednesday,0,South Bay District,International Airport,31.32,77.7,Rain,15.3,2.4,32.5,57,58,1.018,1.06,3.5,96.91
+RIDE_100275,2026-08-18 21:35:54,21,Tuesday,0,Downtown Financial District,Tech Park / University,9.83,24.4,Cloudy,20.8,0.0,9.7,67,34,0.507,1.0,3.5,29.13
+RIDE_100276,2026-09-16 09:11:22,9,Wednesday,0,Midtown Center,South Bay District,15.49,54.0,Fog,17.3,0.0,12.2,70,161,2.3,2.03,3.5,101.63
+RIDE_100277,2026-08-07 08:15:40,8,Friday,0,North Suburbs,Tech Park / University,23.85,72.5,Clear,30.3,0.0,19.0,61,150,2.459,2.17,3.5,152.36
+RIDE_100278,2026-08-08 04:37:26,4,Saturday,1,Downtown Financial District,International Airport,23.93,47.2,Clear,22.0,0.0,6.5,63,52,0.825,1.0,3.5,64.69
+RIDE_100279,2026-08-15 11:39:20,11,Saturday,1,Westside Residential,Downtown Financial District,8.38,18.5,Cloudy,30.1,0.0,19.7,57,57,1.0,1.05,3.5,27.58
+RIDE_100280,2026-08-25 02:19:36,2,Tuesday,0,Midtown Center,East Riverfront,3.11,10.6,Fog,11.6,0.0,6.1,91,74,0.813,1.0,3.5,14.19
+RIDE_100281,2026-09-10 09:45:20,9,Thursday,0,Tech Park / University,South Bay District,16.49,49.5,Clear,30.4,0.0,10.6,56,150,2.679,2.37,3.5,118.29
+RIDE_100282,2026-09-20 17:40:56,17,Sunday,1,North Suburbs,Tech Park / University,23.1,59.0,Rain,15.1,2.9,24.0,40,59,1.475,1.34,3.5,88.0
+RIDE_100283,2026-09-12 23:36:52,23,Saturday,1,Westside Residential,South Bay District,18.17,37.1,Clear,28.3,0.0,17.2,33,65,1.97,1.74,3.5,85.22
+RIDE_100284,2026-09-27 03:21:46,3,Sunday,1,North Suburbs,International Airport,20.17,50.2,Rain,14.7,2.6,29.6,64,56,0.875,1.0,3.5,62.44
+RIDE_100285,2026-09-25 05:00:09,5,Friday,0,Downtown Financial District,East Riverfront,3.87,10.6,Rain,14.6,3.8,43.7,55,63,1.145,1.12,3.5,19.44
+RIDE_100286,2026-08-10 15:13:51,15,Monday,0,Tech Park / University,North Suburbs,21.61,43.8,Clear,27.9,0.0,14.3,70,63,0.9,1.0,3.5,56.01
+RIDE_100287,2026-08-21 11:43:27,11,Friday,0,Westside Residential,North Suburbs,13.25,27.8,Clear,30.7,0.0,8.5,92,68,0.739,1.0,3.5,36.16
+RIDE_100288,2026-08-08 21:10:49,21,Saturday,1,International Airport,Midtown Center,22.81,44.8,Cloudy,23.0,0.0,14.0,61,60,0.984,1.04,3.5,67.12
+RIDE_100289,2026-08-17 21:00:53,21,Monday,0,Midtown Center,International Airport,19.41,39.6,Cloudy,26.7,0.0,4.2,71,79,1.113,1.11,3.5,61.86
+RIDE_100290,2026-08-01 06:14:05,6,Saturday,1,North Suburbs,Tech Park / University,24.05,58.8,Rain,18.2,2.4,19.3,48,47,0.979,1.04,3.5,69.59
+RIDE_100291,2026-09-27 15:40:49,15,Sunday,1,South Bay District,International Airport,35.73,68.1,Clear,28.5,0.0,8.4,70,78,1.114,1.11,3.5,103.56
+RIDE_100292,2026-08-04 04:03:22,4,Tuesday,0,Tech Park / University,International Airport,18.8,46.8,Rain,20.7,0.7,15.1,32,103,3.219,2.86,3.5,166.51
+RIDE_100293,2026-08-28 10:46:53,10,Friday,0,South Bay District,Downtown Financial District,12.3,31.5,Rain,20.3,1.6,41.8,39,70,1.795,1.6,3.5,61.9
+RIDE_100294,2026-08-23 15:55:00,15,Sunday,1,Westside Residential,South Bay District,18.76,38.6,Cloudy,27.9,0.0,3.1,62,50,0.806,1.0,3.5,50.89
+RIDE_100295,2026-09-27 06:18:33,6,Sunday,1,Tech Park / University,Westside Residential,20.31,50.6,Rain,19.6,3.8,23.9,47,70,1.489,1.35,3.5,77.74
+RIDE_100296,2026-08-12 03:26:53,3,Wednesday,0,Tech Park / University,North Suburbs,25.0,48.4,Cloudy,24.1,0.0,10.8,57,43,0.754,1.0,3.5,63.94
+RIDE_100297,2026-08-15 11:10:13,11,Saturday,1,Westside Residential,South Bay District,19.8,40.4,Clear,28.1,0.0,9.3,77,40,0.519,1.0,3.5,53.29
+RIDE_100298,2026-08-14 19:26:04,19,Friday,0,Midtown Center,Downtown Financial District,4.25,21.4,Rain,17.2,0.6,42.9,59,131,2.22,1.96,3.5,39.96
+RIDE_100299,2026-08-17 02:37:41,2,Monday,0,Westside Residential,East Riverfront,9.57,18.6,Clear,27.3,0.0,17.0,93,39,0.419,1.0,3.5,27.88
+RIDE_100300,2026-09-25 06:20:54,6,Friday,0,Westside Residential,Tech Park / University,18.71,35.8,Clear,30.8,0.0,17.3,56,65,1.161,1.13,3.5,56.16
+RIDE_100301,2026-08-13 01:45:54,1,Thursday,0,South Bay District,East Riverfront,17.97,35.3,Clear,28.1,0.0,17.9,65,67,1.031,1.07,3.5,52.0
+RIDE_100302,2026-08-30 12:35:01,12,Sunday,1,North Suburbs,International Airport,17.15,33.9,Clear,19.8,0.0,17.6,93,82,0.882,1.0,3.5,50.14
+RIDE_100303,2026-09-18 14:11:04,14,Friday,0,South Bay District,Tech Park / University,13.99,27.0,Clear,24.1,0.0,8.6,64,62,0.969,1.03,3.5,39.72
+RIDE_100304,2026-08-08 19:26:35,19,Saturday,1,Downtown Financial District,Westside Residential,8.78,19.0,Cloudy,26.0,0.0,14.3,52,36,0.692,1.0,3.5,27.21
+RIDE_100305,2026-09-01 07:03:49,7,Tuesday,0,Westside Residential,Downtown Financial District,8.52,33.2,Rain,16.3,2.6,21.2,28,143,5.107,3.5,3.5,111.87
+RIDE_100306,2026-08-09 20:48:25,20,Sunday,1,Tech Park / University,North Suburbs,18.63,43.9,Fog,17.5,0.0,12.9,71,49,0.69,1.0,3.5,51.64
+RIDE_100307,2026-09-25 20:18:39,20,Friday,0,Downtown Financial District,South Bay District,11.46,36.4,Clear,21.2,0.0,6.3,64,131,2.047,1.8,3.5,66.91
+RIDE_100308,2026-08-27 04:00:22,4,Thursday,0,Downtown Financial District,South Bay District,11.84,24.7,Cloudy,29.3,0.0,19.1,77,53,0.688,1.0,3.5,34.99
+RIDE_100309,2026-08-18 00:13:26,0,Tuesday,0,South Bay District,Westside Residential,16.68,30.7,Cloudy,27.7,0.0,18.8,59,81,1.373,1.26,3.5,54.61
+RIDE_100310,2026-09-12 22:28:09,22,Saturday,1,Westside Residential,Midtown Center,8.88,16.7,Clear,31.3,0.0,19.4,37,131,3.541,3.15,3.5,82.03
+RIDE_100311,2026-09-26 19:55:00,19,Saturday,1,North Suburbs,East Riverfront,15.18,29.2,Cloudy,30.1,0.0,11.2,84,72,0.857,1.0,3.5,41.07
+RIDE_100312,2026-09-17 17:48:14,17,Thursday,0,Midtown Center,Westside Residential,9.51,30.3,Cloudy,23.5,0.0,14.2,67,101,1.507,1.37,3.5,43.48
+RIDE_100313,2026-09-03 18:48:28,18,Thursday,0,North Suburbs,International Airport,18.69,54.7,Clear,24.4,0.0,18.6,43,163,3.791,3.37,3.5,204.82
+RIDE_100314,2026-09-01 04:07:11,4,Tuesday,0,Midtown Center,South Bay District,18.09,36.5,Clear,31.3,0.0,19.4,47,42,0.894,1.0,3.5,48.52
+RIDE_100315,2026-08-16 14:44:56,14,Sunday,1,East Riverfront,Tech Park / University,6.46,15.0,Clear,24.4,0.0,16.3,59,53,0.898,1.0,3.5,21.72
+RIDE_100316,2026-09-18 02:31:35,2,Friday,0,Westside Residential,North Suburbs,12.02,31.6,Rain,17.0,3.2,31.6,61,63,1.033,1.07,3.5,40.98
+RIDE_100317,2026-09-08 21:07:16,21,Tuesday,0,Downtown Financial District,Westside Residential,7.29,15.1,Clear,18.4,0.0,11.2,52,74,1.423,1.3,3.5,29.17
+RIDE_100318,2026-08-09 13:11:39,13,Sunday,1,East Riverfront,International Airport,18.5,43.7,Heavy Rain,14.4,24.8,37.8,71,42,0.592,1.0,3.5,59.58
+RIDE_100319,2026-09-01 09:16:57,9,Tuesday,0,Midtown Center,South Bay District,18.59,53.3,Clear,25.9,0.0,9.1,36,52,1.444,1.32,3.5,72.4
+RIDE_100320,2026-09-09 05:47:46,5,Wednesday,0,Downtown Financial District,North Suburbs,13.73,27.9,Clear,20.5,0.0,17.7,84,70,0.833,1.0,3.5,38.36
+RIDE_100321,2026-09-22 16:20:04,16,Tuesday,0,South Bay District,Tech Park / University,14.32,30.0,Cloudy,25.2,0.0,15.9,58,74,1.276,1.19,3.5,46.94
+RIDE_100322,2026-08-06 06:18:16,6,Thursday,0,Tech Park / University,East Riverfront,7.88,20.1,Heavy Rain,20.2,11.6,29.3,42,99,2.357,2.08,3.5,54.85
+RIDE_100323,2026-09-05 03:00:25,3,Saturday,1,South Bay District,East Riverfront,17.71,31.3,Clear,19.0,0.0,4.2,54,64,1.185,1.14,3.5,52.22
+RIDE_100324,2026-09-12 22:01:48,22,Saturday,1,Downtown Financial District,International Airport,25.61,62.8,Rain,19.5,1.7,38.1,51,66,1.294,1.2,3.5,91.12
+RIDE_100325,2026-08-26 22:17:10,22,Wednesday,0,International Airport,Tech Park / University,17.83,44.8,Rain,17.3,0.5,30.7,55,49,0.891,1.0,3.5,56.93
+RIDE_100326,2026-09-12 12:53:04,12,Saturday,1,South Bay District,Downtown Financial District,14.95,31.0,Clear,20.7,0.0,8.3,90,65,0.722,1.0,3.5,41.36
+RIDE_100327,2026-08-03 19:16:14,19,Monday,0,Tech Park / University,North Suburbs,21.22,65.4,Clear,22.6,0.0,15.1,53,154,2.906,2.58,3.5,162.29
+RIDE_100328,2026-08-16 09:02:52,9,Sunday,1,Westside Residential,East Riverfront,11.65,25.0,Clear,25.6,0.0,15.1,73,38,0.521,1.0,3.5,32.43
+RIDE_100329,2026-08-02 07:51:49,7,Sunday,1,North Suburbs,Downtown Financial District,16.07,32.2,Clear,31.3,0.0,13.7,60,66,1.1,1.1,3.5,46.9
+RIDE_100330,2026-08-22 19:35:25,19,Saturday,1,Midtown Center,Westside Residential,8.21,16.9,Clear,31.1,0.0,17.1,79,44,0.557,1.0,3.5,26.31
+RIDE_100331,2026-08-12 09:42:57,9,Wednesday,0,International Airport,Westside Residential,29.05,83.8,Cloudy,28.2,0.0,17.6,48,131,2.729,2.42,3.5,211.47
+RIDE_100332,2026-08-29 08:05:12,8,Saturday,1,Westside Residential,Tech Park / University,20.38,47.3,Heavy Rain,19.8,18.1,31.9,72,38,0.528,1.0,3.5,58.29
+RIDE_100333,2026-09-16 20:18:19,20,Wednesday,0,South Bay District,Midtown Center,19.25,58.7,Clear,29.0,0.0,5.1,44,153,3.477,3.09,3.5,177.87
+RIDE_100334,2026-09-14 08:23:22,8,Monday,0,International Airport,Westside Residential,28.19,84.1,Cloudy,31.5,0.0,3.9,42,69,1.643,1.47,3.5,126.68
+RIDE_100335,2026-08-19 12:09:15,12,Wednesday,0,International Airport,South Bay District,34.87,65.7,Clear,19.8,0.0,17.7,59,60,1.017,1.06,3.5,95.73
+RIDE_100336,2026-08-07 18:40:09,18,Friday,0,Westside Residential,South Bay District,21.82,62.9,Cloudy,29.2,0.0,7.3,93,76,0.817,1.0,3.5,64.03
+RIDE_100337,2026-09-10 06:53:09,6,Thursday,0,East Riverfront,South Bay District,14.13,29.5,Clear,18.3,0.0,9.6,44,56,1.273,1.19,3.5,46.47
+RIDE_100338,2026-09-19 07:06:52,7,Saturday,1,Westside Residential,South Bay District,19.03,48.0,Heavy Rain,16.0,15.9,25.7,71,100,1.408,1.29,3.5,71.74
+RIDE_100339,2026-08-01 05:58:38,5,Saturday,1,Westside Residential,North Suburbs,12.71,33.1,Rain,20.2,0.9,38.6,50,62,1.24,1.17,3.5,45.99
+RIDE_100340,2026-08-29 23:41:07,23,Saturday,1,South Bay District,North Suburbs,25.21,48.3,Cloudy,20.5,0.0,19.5,36,93,2.583,2.28,3.5,147.2
+RIDE_100341,2026-08-15 10:15:08,10,Saturday,1,South Bay District,Westside Residential,18.5,35.3,Clear,21.7,0.0,6.5,64,64,1.0,1.05,3.5,50.05
+RIDE_100342,2026-09-17 00:35:50,0,Thursday,0,East Riverfront,International Airport,20.12,46.3,Fog,14.8,0.0,5.8,68,76,1.118,1.11,3.5,66.63
+RIDE_100343,2026-09-23 14:03:38,14,Wednesday,0,North Suburbs,Tech Park / University,18.88,38.6,Cloudy,26.7,0.0,14.0,69,82,1.188,1.14,3.5,56.32
+RIDE_100344,2026-09-01 05:47:44,5,Tuesday,0,Tech Park / University,North Suburbs,23.23,48.8,Cloudy,22.4,0.0,7.6,41,58,1.415,1.29,3.5,77.84
+RIDE_100345,2026-08-24 04:27:26,4,Monday,0,North Suburbs,Midtown Center,11.74,27.1,Fog,10.1,0.0,12.7,75,63,0.84,1.0,3.5,34.25
+RIDE_100346,2026-09-09 21:10:31,21,Wednesday,0,Downtown Financial District,Tech Park / University,10.01,21.9,Clear,31.1,0.0,12.2,58,30,0.517,1.0,3.5,29.01
+RIDE_100347,2026-09-15 22:06:52,22,Tuesday,0,North Suburbs,Tech Park / University,22.6,56.7,Rain,19.3,1.3,29.9,55,107,1.945,1.72,3.5,109.46
+RIDE_100348,2026-08-15 18:25:51,18,Saturday,1,South Bay District,Downtown Financial District,13.35,28.2,Clear,31.9,0.0,6.9,82,70,0.854,1.0,3.5,36.67
+RIDE_100349,2026-08-13 06:10:30,6,Thursday,0,East Riverfront,South Bay District,13.76,26.8,Clear,30.3,0.0,15.6,86,62,0.721,1.0,3.5,36.93
+RIDE_100350,2026-08-10 17:51:59,17,Monday,0,South Bay District,Downtown Financial District,12.2,38.3,Clear,24.4,0.0,15.5,58,88,1.517,1.37,3.5,53.23
+RIDE_100351,2026-09-21 01:33:17,1,Monday,0,South Bay District,Downtown Financial District,12.79,23.5,Cloudy,22.0,0.0,16.4,42,39,0.929,1.01,3.5,35.25
+RIDE_100352,2026-08-14 23:54:23,23,Friday,0,North Suburbs,South Bay District,34.0,63.2,Clear,28.8,0.0,10.3,45,72,1.6,1.44,3.5,120.77
+RIDE_100353,2026-08-15 23:41:15,23,Saturday,1,Midtown Center,Westside Residential,7.84,20.1,Heavy Rain,20.3,17.3,28.6,50,153,3.06,2.71,3.5,70.2
+RIDE_100354,2026-08-26 17:32:52,17,Wednesday,0,East Riverfront,Westside Residential,9.35,28.2,Clear,25.0,0.0,4.0,68,129,1.897,1.68,3.5,52.82
+RIDE_100355,2026-09-08 14:12:11,14,Tuesday,0,Midtown Center,South Bay District,17.86,36.3,Clear,20.2,0.0,5.7,44,78,1.773,1.58,3.5,74.55
+RIDE_100356,2026-09-01 21:36:47,21,Tuesday,0,North Suburbs,International Airport,20.86,48.9,Rain,14.9,2.9,23.7,33,52,1.576,1.42,3.5,89.99
+RIDE_100357,2026-09-17 09:00:00,9,Thursday,0,Downtown Financial District,East Riverfront,4.22,19.2,Rain,16.5,3.3,42.4,53,82,1.547,1.4,3.5,26.75
+RIDE_100358,2026-08-07 15:25:54,15,Friday,0,Tech Park / University,North Suburbs,21.79,43.5,Clear,30.0,0.0,14.5,56,41,0.732,1.0,3.5,57.13
+RIDE_100359,2026-08-28 21:38:29,21,Friday,0,Tech Park / University,North Suburbs,21.34,40.5,Cloudy,20.2,0.0,14.5,52,61,1.173,1.14,3.5,63.13
+RIDE_100360,2026-08-09 18:35:56,18,Sunday,1,North Suburbs,Downtown Financial District,14.15,26.7,Clear,18.0,0.0,15.2,45,73,1.622,1.46,3.5,55.8
+RIDE_100361,2026-08-10 18:11:55,18,Monday,0,South Bay District,Midtown Center,14.69,44.0,Clear,20.3,0.0,18.1,46,87,1.891,1.67,3.5,75.13
+RIDE_100362,2026-08-30 01:48:23,1,Sunday,1,Downtown Financial District,Midtown Center,3.64,8.8,Clear,21.4,0.0,7.5,71,81,1.141,1.12,3.5,16.5
+RIDE_100363,2026-09-01 11:50:51,11,Tuesday,0,Downtown Financial District,Tech Park / University,10.41,26.5,Heavy Rain,17.3,17.6,37.6,53,102,1.925,1.7,3.5,56.86
+RIDE_100364,2026-09-04 19:16:48,19,Friday,0,East Riverfront,Tech Park / University,7.88,26.0,Cloudy,24.9,0.0,18.9,59,121,2.051,1.81,3.5,49.78
+RIDE_100365,2026-08-15 03:12:07,3,Saturday,1,Tech Park / University,East Riverfront,6.22,13.6,Cloudy,23.9,0.0,3.3,56,72,1.286,1.19,3.5,23.85
+RIDE_100366,2026-09-10 00:09:00,0,Thursday,0,International Airport,Midtown Center,20.12,40.1,Cloudy,27.6,0.0,7.3,64,83,1.297,1.2,3.5,70.6
+RIDE_100367,2026-08-17 23:56:28,23,Monday,0,Midtown Center,East Riverfront,3.37,8.9,Rain,17.9,3.5,25.0,58,48,0.828,1.0,3.5,15.63
+RIDE_100368,2026-09-07 03:23:34,3,Monday,0,Tech Park / University,Westside Residential,16.99,41.9,Rain,15.6,3.7,17.0,47,46,0.979,1.04,3.5,51.78
+RIDE_100369,2026-09-26 14:51:16,14,Saturday,1,International Airport,Midtown Center,18.93,46.6,Rain,22.0,2.0,31.8,51,40,0.784,1.0,3.5,59.41
+RIDE_100370,2026-09-14 18:33:25,18,Monday,0,Westside Residential,Tech Park / University,16.88,50.4,Cloudy,28.1,0.0,14.2,62,110,1.774,1.58,3.5,82.15
+RIDE_100371,2026-08-25 18:57:15,18,Tuesday,0,Downtown Financial District,South Bay District,11.16,41.6,Rain,18.4,3.2,17.0,35,118,3.371,2.99,3.5,116.58
+RIDE_100372,2026-09-15 04:07:07,4,Tuesday,0,Westside Residential,North Suburbs,12.28,23.4,Cloudy,28.4,0.0,5.9,48,57,1.188,1.14,3.5,38.44
+RIDE_100373,2026-09-23 01:39:57,1,Wednesday,0,International Airport,Downtown Financial District,21.43,44.6,Cloudy,24.1,0.0,16.2,81,66,0.815,1.0,3.5,61.66
+RIDE_100374,2026-09-12 21:18:17,21,Saturday,1,East Riverfront,Westside Residential,10.37,23.0,Clear,28.0,0.0,9.6,79,69,0.873,1.0,3.5,30.87
+RIDE_100375,2026-08-30 01:04:47,1,Sunday,1,North Suburbs,East Riverfront,17.24,45.9,Rain,18.5,3.1,32.5,49,101,2.061,1.81,3.5,93.83
+RIDE_100376,2026-08-25 06:46:15,6,Tuesday,0,South Bay District,North Suburbs,30.65,77.0,Rain,18.2,1.3,39.8,47,94,2.0,1.76,3.5,146.7
+RIDE_100377,2026-08-30 07:59:40,7,Sunday,1,Tech Park / University,Westside Residential,19.44,49.3,Rain,15.5,3.2,17.7,58,64,1.103,1.1,3.5,60.64
+RIDE_100378,2026-09-16 21:57:23,21,Wednesday,0,Midtown Center,International Airport,16.77,36.3,Cloudy,22.5,0.0,18.3,79,58,0.734,1.0,3.5,50.33
+RIDE_100379,2026-09-07 00:38:35,0,Monday,0,East Riverfront,Westside Residential,9.61,26.0,Rain,19.7,3.3,44.0,55,72,1.309,1.21,3.5,39.13
+RIDE_100380,2026-08-29 17:25:57,17,Saturday,1,Westside Residential,Downtown Financial District,7.04,14.8,Cloudy,26.0,0.0,8.2,52,78,1.5,1.36,3.5,31.15
+RIDE_100381,2026-09-08 10:17:39,10,Tuesday,0,Westside Residential,Downtown Financial District,7.07,15.6,Clear,22.4,0.0,3.3,70,43,0.614,1.0,3.5,22.99
+RIDE_100382,2026-09-24 22:42:36,22,Thursday,0,Downtown Financial District,East Riverfront,4.16,7.2,Clear,25.2,0.0,3.1,42,45,1.071,1.09,3.5,15.08
+RIDE_100383,2026-09-18 05:27:30,5,Friday,0,Westside Residential,South Bay District,18.78,37.6,Clear,26.9,0.0,15.5,41,39,0.951,1.03,3.5,50.33
+RIDE_100384,2026-08-23 08:12:52,8,Sunday,1,East Riverfront,Midtown Center,3.11,9.3,Heavy Rain,17.0,10.7,33.6,34,106,3.118,2.77,3.5,41.81
+RIDE_100385,2026-08-19 11:02:22,11,Wednesday,0,Westside Residential,North Suburbs,13.29,27.2,Cloudy,31.3,0.0,17.2,66,84,1.273,1.19,3.5,44.46
+RIDE_100386,2026-08-14 06:43:07,6,Friday,0,Midtown Center,North Suburbs,11.07,23.9,Cloudy,31.6,0.0,4.2,61,48,0.787,1.0,3.5,32.58
+RIDE_100387,2026-08-04 19:51:40,19,Tuesday,0,Westside Residential,South Bay District,18.92,56.3,Clear,18.6,0.0,12.9,40,142,3.55,3.15,3.5,176.78
+RIDE_100388,2026-09-12 19:11:32,19,Saturday,1,Downtown Financial District,East Riverfront,4.37,10.5,Cloudy,30.7,0.0,13.9,65,59,0.908,1.0,3.5,17.11
+RIDE_100389,2026-09-05 10:11:17,10,Saturday,1,International Airport,Downtown Financial District,25.78,52.8,Cloudy,19.1,0.0,15.6,83,69,0.831,1.0,3.5,72.08
+RIDE_100390,2026-08-29 15:39:25,15,Saturday,1,East Riverfront,North Suburbs,13.22,28.0,Clear,30.8,0.0,13.5,94,45,0.479,1.0,3.5,38.35
+RIDE_100391,2026-09-10 08:11:32,8,Thursday,0,International Airport,Midtown Center,19.74,75.9,Thunderstorm,17.0,17.7,39.0,32,154,4.812,3.5,3.5,247.84
+RIDE_100392,2026-08-13 19:57:16,19,Thursday,0,East Riverfront,Westside Residential,12.06,37.5,Clear,22.9,0.0,10.4,49,176,3.592,3.19,3.5,121.51
+RIDE_100393,2026-09-18 17:15:59,17,Friday,0,Westside Residential,South Bay District,21.3,65.3,Clear,20.4,0.0,11.1,64,164,2.562,2.27,3.5,142.24
+RIDE_100394,2026-08-16 23:24:58,23,Sunday,1,Westside Residential,South Bay District,22.55,43.6,Clear,19.6,0.0,3.1,48,105,2.188,1.93,3.5,112.7
+RIDE_100395,2026-09-16 18:47:12,18,Wednesday,0,Westside Residential,North Suburbs,11.07,35.2,Clear,31.7,0.0,5.9,31,140,4.516,3.5,3.5,127.42
+RIDE_100396,2026-09-02 21:15:49,21,Wednesday,0,Midtown Center,Westside Residential,7.27,15.4,Cloudy,28.9,0.0,8.2,63,64,1.016,1.06,3.5,25.04
+RIDE_100397,2026-08-08 07:27:36,7,Saturday,1,International Airport,South Bay District,39.69,75.6,Clear,28.0,0.0,7.8,73,38,0.521,1.0,3.5,101.63
+RIDE_100398,2026-08-22 21:43:13,21,Saturday,1,North Suburbs,South Bay District,29.79,69.8,Thunderstorm,15.6,17.3,16.3,76,93,1.224,1.16,3.5,97.23
+RIDE_100399,2026-09-24 02:37:57,2,Thursday,0,East Riverfront,Downtown Financial District,4.66,8.2,Cloudy,27.6,0.0,14.2,74,77,1.041,1.07,3.5,16.49
+RIDE_100400,2026-09-08 07:25:31,7,Tuesday,0,Downtown Financial District,Tech Park / University,9.47,37.5,Rain,15.6,0.9,43.5,58,90,1.552,1.4,3.5,48.31
+RIDE_100401,2026-09-22 02:18:14,2,Tuesday,0,Midtown Center,Westside Residential,7.85,15.4,Cloudy,20.0,0.0,12.7,67,82,1.224,1.16,3.5,27.12
+RIDE_100402,2026-09-05 18:52:00,18,Saturday,1,Westside Residential,East Riverfront,9.92,24.8,Rain,21.4,1.5,44.1,38,45,1.184,1.14,3.5,36.15
+RIDE_100403,2026-09-06 23:51:13,23,Sunday,1,East Riverfront,Downtown Financial District,4.51,13.6,Rain,15.4,3.3,35.2,50,116,2.32,2.05,3.5,38.71
+RIDE_100404,2026-08-23 16:50:40,16,Sunday,1,South Bay District,Downtown Financial District,14.38,30.2,Clear,24.4,0.0,9.0,56,53,0.946,1.02,3.5,40.57
+RIDE_100405,2026-09-24 12:10:26,12,Thursday,0,East Riverfront,Westside Residential,9.41,20.9,Clear,20.9,0.0,7.0,52,68,1.308,1.21,3.5,35.43
+RIDE_100406,2026-08-22 11:49:22,11,Saturday,1,Midtown Center,North Suburbs,14.04,28.0,Cloudy,27.9,0.0,18.9,89,58,0.652,1.0,3.5,39.86
+RIDE_100407,2026-09-15 01:49:18,1,Tuesday,0,Westside Residential,North Suburbs,12.29,32.0,Rain,19.2,0.7,21.8,44,50,1.136,1.12,3.5,42.23
+RIDE_100408,2026-09-09 15:23:53,15,Wednesday,0,Midtown Center,International Airport,18.31,48.3,Heavy Rain,22.0,23.4,38.9,37,79,2.135,1.88,3.5,110.67
+RIDE_100409,2026-08-05 09:39:56,9,Wednesday,0,Downtown Financial District,Tech Park / University,10.91,36.3,Clear,30.9,0.0,14.8,66,118,1.788,1.59,3.5,58.22
+RIDE_100410,2026-09-17 19:53:54,19,Thursday,0,Midtown Center,Downtown Financial District,3.51,12.3,Cloudy,30.0,0.0,17.2,31,94,3.032,2.69,3.5,42.93
+RIDE_100411,2026-08-23 19:07:25,19,Sunday,1,International Airport,Westside Residential,27.84,55.0,Clear,22.8,0.0,3.5,90,31,0.344,1.0,3.5,75.83
+RIDE_100412,2026-09-14 01:03:59,1,Monday,0,East Riverfront,North Suburbs,14.22,27.3,Cloudy,27.5,0.0,8.4,41,67,1.634,1.47,3.5,57.34
+RIDE_100413,2026-09-22 10:44:23,10,Tuesday,0,North Suburbs,Westside Residential,10.8,24.2,Fog,10.1,0.0,12.2,80,65,0.812,1.0,3.5,30.83
+RIDE_100414,2026-08-16 00:03:52,0,Sunday,1,North Suburbs,East Riverfront,13.28,27.9,Clear,21.7,0.0,8.8,51,121,2.373,2.1,3.5,77.93
+RIDE_100415,2026-08-10 14:44:13,14,Monday,0,South Bay District,Westside Residential,16.69,33.2,Clear,20.3,0.0,13.1,63,84,1.333,1.23,3.5,55.29
+RIDE_100416,2026-09-09 14:58:44,14,Wednesday,0,Westside Residential,Downtown Financial District,8.4,18.5,Clear,24.6,0.0,14.3,65,49,0.754,1.0,3.5,26.98
+RIDE_100417,2026-09-05 23:23:50,23,Saturday,1,Tech Park / University,Westside Residential,19.95,51.7,Rain,14.4,3.1,15.2,29,165,5.69,3.5,3.5,198.46
+RIDE_100418,2026-09-13 04:12:59,4,Sunday,1,Tech Park / University,South Bay District,13.53,27.7,Clear,20.6,0.0,8.8,64,49,0.766,1.0,3.5,38.8
+RIDE_100419,2026-09-05 05:07:11,5,Saturday,1,Midtown Center,North Suburbs,12.05,26.0,Cloudy,22.2,0.0,13.1,85,54,0.635,1.0,3.5,34.56
+RIDE_100420,2026-09-05 15:57:08,15,Saturday,1,East Riverfront,Downtown Financial District,4.21,9.6,Rain,21.5,2.8,39.6,50,96,1.92,1.7,3.5,27.65
+RIDE_100421,2026-09-08 15:43:57,15,Tuesday,0,Westside Residential,Midtown Center,6.88,20.8,Rain,14.8,3.3,32.3,79,81,1.025,1.06,3.5,27.53
+RIDE_100422,2026-08-12 20:39:09,20,Wednesday,0,South Bay District,Downtown Financial District,11.27,34.4,Cloudy,25.5,0.0,4.8,51,92,1.804,1.6,3.5,58.15
+RIDE_100423,2026-08-21 14:14:32,14,Friday,0,Downtown Financial District,Midtown Center,3.68,9.7,Clear,18.7,0.0,14.8,94,51,0.543,1.0,3.5,13.97
+RIDE_100424,2026-09-02 09:07:57,9,Wednesday,0,Tech Park / University,Midtown Center,9.11,30.0,Cloudy,23.0,0.0,17.0,50,96,1.92,1.7,3.5,52.36
+RIDE_100425,2026-09-24 19:33:43,19,Thursday,0,Tech Park / University,Downtown Financial District,9.08,30.0,Clear,19.2,0.0,10.9,40,176,4.4,3.5,3.5,108.09
+RIDE_100426,2026-09-23 19:23:51,19,Wednesday,0,Tech Park / University,East Riverfront,7.61,26.7,Clear,24.4,0.0,8.2,53,79,1.491,1.35,3.5,35.92
+RIDE_100427,2026-08-21 23:12:11,23,Friday,0,Tech Park / University,International Airport,23.17,46.3,Clear,21.5,0.0,14.1,89,47,0.528,1.0,3.5,64.78
+RIDE_100428,2026-08-15 07:49:34,7,Saturday,1,Downtown Financial District,Tech Park / University,10.69,21.2,Clear,21.3,0.0,11.7,82,76,0.927,1.01,3.5,31.03
+RIDE_100429,2026-08-15 01:08:50,1,Saturday,1,International Airport,East Riverfront,18.23,35.5,Cloudy,23.6,0.0,17.2,56,93,1.661,1.49,3.5,78.76
+RIDE_100430,2026-08-25 08:03:59,8,Tuesday,0,International Airport,Downtown Financial District,22.16,66.4,Clear,27.5,0.0,14.2,74,80,1.081,1.09,3.5,76.38
+RIDE_100431,2026-08-03 12:04:19,12,Monday,0,International Airport,Downtown Financial District,19.79,39.1,Clear,20.4,0.0,17.9,70,32,0.457,1.0,3.5,55.66
+RIDE_100432,2026-09-04 18:45:54,18,Friday,0,Tech Park / University,East Riverfront,7.4,26.4,Fog,11.8,0.0,13.9,65,165,2.538,2.24,3.5,60.17
+RIDE_100433,2026-09-01 10:26:31,10,Tuesday,0,Downtown Financial District,International Airport,21.85,43.4,Clear,28.9,0.0,9.8,73,72,0.986,1.04,3.5,64.78
+RIDE_100434,2026-08-26 18:21:04,18,Wednesday,0,Downtown Financial District,International Airport,19.53,68.7,Fog,11.9,0.0,6.1,56,111,1.982,1.75,3.5,115.64
+RIDE_100435,2026-09-10 20:54:33,20,Thursday,0,Midtown Center,North Suburbs,11.99,47.0,Heavy Rain,21.1,6.9,31.8,53,118,2.226,1.96,3.5,84.02
+RIDE_100436,2026-08-07 04:06:03,4,Friday,0,South Bay District,Tech Park / University,16.15,34.5,Clear,19.9,0.0,9.5,94,40,0.426,1.0,3.5,44.04
+RIDE_100437,2026-09-05 03:36:43,3,Saturday,1,Midtown Center,Westside Residential,9.51,20.5,Clear,24.4,0.0,10.3,80,38,0.475,1.0,3.5,27.5
+RIDE_100438,2026-09-18 22:01:45,22,Friday,0,Tech Park / University,East Riverfront,6.26,13.3,Clear,25.7,0.0,10.1,67,63,0.94,1.02,3.5,19.99
+RIDE_100439,2026-08-05 05:02:52,5,Wednesday,0,Westside Residential,Tech Park / University,19.11,47.2,Heavy Rain,17.1,3.9,18.0,63,75,1.19,1.15,3.5,63.63
+RIDE_100440,2026-08-04 00:35:10,0,Tuesday,0,Downtown Financial District,Westside Residential,7.09,18.5,Rain,15.1,3.9,21.9,34,49,1.441,1.31,3.5,31.47
+RIDE_100441,2026-09-08 23:50:09,23,Tuesday,0,North Suburbs,East Riverfront,12.93,34.5,Heavy Rain,21.6,18.8,38.4,65,96,1.477,1.34,3.5,53.16
+RIDE_100442,2026-08-11 11:34:09,11,Tuesday,0,South Bay District,East Riverfront,13.32,27.0,Clear,25.5,0.0,12.6,47,36,0.766,1.0,3.5,36.1
+RIDE_100443,2026-09-13 01:34:30,1,Sunday,1,Midtown Center,Downtown Financial District,3.49,8.4,Clear,23.7,0.0,5.8,49,122,2.49,2.2,3.5,30.56
+RIDE_100444,2026-09-01 06:34:29,6,Tuesday,0,International Airport,Downtown Financial District,22.03,53.4,Heavy Rain,15.7,3.9,37.6,64,109,1.703,1.52,3.5,100.9
+RIDE_100445,2026-08-13 06:02:51,6,Thursday,0,Westside Residential,East Riverfront,11.18,22.7,Clear,26.0,0.0,16.7,66,84,1.273,1.19,3.5,37.82
+RIDE_100446,2026-09-26 19:59:54,19,Saturday,1,East Riverfront,Tech Park / University,6.36,13.8,Clear,23.7,0.0,14.6,44,83,1.886,1.67,3.5,34.46
+RIDE_100447,2026-09-28 00:01:26,0,Monday,0,Westside Residential,Tech Park / University,18.76,36.7,Clear,27.0,0.0,7.4,61,81,1.328,1.22,3.5,60.6
+RIDE_100448,2026-09-19 02:01:09,2,Saturday,1,North Suburbs,Downtown Financial District,14.74,29.8,Clear,21.4,0.0,14.4,37,65,1.757,1.57,3.5,62.91
+RIDE_100449,2026-08-12 02:36:14,2,Wednesday,0,Tech Park / University,Westside Residential,17.83,35.8,Clear,18.5,0.0,19.8,52,71,1.365,1.25,3.5,57.1
+RIDE_100450,2026-09-13 20:11:57,20,Sunday,1,Tech Park / University,Westside Residential,15.43,30.5,Clear,22.9,0.0,15.9,60,60,1.0,1.05,3.5,42.35
+RIDE_100451,2026-09-02 21:46:04,21,Wednesday,0,South Bay District,Tech Park / University,15.19,29.9,Clear,24.0,0.0,8.6,56,61,1.089,1.09,3.5,45.05
+RIDE_100452,2026-09-10 09:19:34,9,Thursday,0,Midtown Center,Tech Park / University,11.31,35.6,Cloudy,29.5,0.0,12.5,44,57,1.295,1.2,3.5,43.4
+RIDE_100453,2026-09-11 10:25:55,10,Friday,0,East Riverfront,North Suburbs,14.15,37.4,Heavy Rain,15.0,4.4,44.4,61,58,0.951,1.03,3.5,46.96
+RIDE_100454,2026-08-25 17:56:10,17,Tuesday,0,East Riverfront,Midtown Center,3.14,9.5,Cloudy,26.1,0.0,10.3,59,133,2.254,1.99,3.5,28.44
+RIDE_100455,2026-09-16 01:07:27,1,Wednesday,0,Midtown Center,Downtown Financial District,4.03,9.3,Rain,14.5,1.3,18.9,43,69,1.605,1.44,3.5,24.95
+RIDE_100456,2026-08-09 06:54:48,6,Sunday,1,Midtown Center,Westside Residential,7.19,17.8,Clear,26.7,0.0,16.7,87,49,0.563,1.0,3.5,23.52
+RIDE_100457,2026-08-10 09:00:41,9,Monday,0,East Riverfront,South Bay District,16.77,65.1,Rain,19.1,2.2,39.2,28,149,5.321,3.5,3.5,195.76
+RIDE_100458,2026-08-13 15:11:27,15,Thursday,0,Downtown Financial District,East Riverfront,4.92,9.7,Clear,29.2,0.0,17.7,61,35,0.574,1.0,3.5,17.79
+RIDE_100459,2026-09-24 12:35:28,12,Thursday,0,East Riverfront,North Suburbs,15.52,31.7,Cloudy,30.6,0.0,16.5,72,74,1.028,1.06,3.5,44.85
+RIDE_100460,2026-08-12 20:49:10,20,Wednesday,0,North Suburbs,International Airport,17.32,53.7,Clear,21.8,0.0,6.7,37,112,3.027,2.68,3.5,154.17
+RIDE_100461,2026-09-11 01:30:51,1,Friday,0,Downtown Financial District,Tech Park / University,9.79,20.7,Clear,19.9,0.0,4.6,80,83,1.038,1.07,3.5,31.41
+RIDE_100462,2026-09-28 07:03:24,7,Monday,0,Westside Residential,International Airport,22.25,64.2,Clear,28.2,0.0,16.3,54,115,2.13,1.88,3.5,130.43
+RIDE_100463,2026-08-11 01:24:24,1,Tuesday,0,Tech Park / University,Midtown Center,8.34,16.3,Cloudy,29.9,0.0,19.3,74,34,0.459,1.0,3.5,24.99
+RIDE_100464,2026-09-16 19:34:57,19,Wednesday,0,Tech Park / University,South Bay District,14.85,44.8,Clear,26.5,0.0,9.6,50,69,1.38,1.26,3.5,57.77
+RIDE_100465,2026-08-11 12:10:01,12,Tuesday,0,East Riverfront,South Bay District,16.04,41.0,Heavy Rain,18.7,24.9,39.4,71,98,1.38,1.26,3.5,61.65
+RIDE_100466,2026-09-24 00:11:33,0,Thursday,0,East Riverfront,Downtown Financial District,4.71,8.5,Clear,28.3,0.0,14.3,83,41,0.494,1.0,3.5,16.6
+RIDE_100467,2026-08-28 01:06:39,1,Friday,0,Tech Park / University,South Bay District,16.07,33.8,Clear,31.9,0.0,4.6,82,42,0.512,1.0,3.5,44.39
+RIDE_100468,2026-09-11 15:54:15,15,Friday,0,Downtown Financial District,East Riverfront,4.15,11.6,Cloudy,29.2,0.0,7.0,47,81,1.723,1.54,3.5,27.28
+RIDE_100469,2026-08-26 23:11:54,23,Wednesday,0,Downtown Financial District,International Airport,21.61,42.8,Clear,21.9,0.0,16.1,58,77,1.328,1.22,3.5,73.91
+RIDE_100470,2026-08-27 12:45:58,12,Thursday,0,Westside Residential,International Airport,25.92,53.6,Clear,26.9,0.0,16.9,77,63,0.818,1.0,3.5,72.01
+RIDE_100471,2026-09-04 01:56:37,1,Friday,0,Downtown Financial District,International Airport,21.38,44.5,Clear,26.6,0.0,18.3,79,37,0.468,1.0,3.5,61.78
+RIDE_100472,2026-08-14 21:48:00,21,Friday,0,North Suburbs,Downtown Financial District,15.45,27.9,Cloudy,24.5,0.0,6.2,65,67,1.031,1.07,3.5,44.22
+RIDE_100473,2026-08-14 18:35:30,18,Friday,0,Downtown Financial District,Midtown Center,4.4,15.6,Clear,22.4,0.0,4.0,63,167,2.651,2.35,3.5,42.96
+RIDE_100474,2026-09-21 12:06:51,12,Monday,0,Tech Park / University,Westside Residential,18.64,38.1,Clear,23.2,0.0,12.4,84,52,0.619,1.0,3.5,48.27
+RIDE_100475,2026-09-10 18:16:50,18,Thursday,0,South Bay District,International Airport,32.56,122.2,Rain,14.6,2.1,20.0,45,155,3.444,3.06,3.5,329.7
+RIDE_100476,2026-08-16 06:47:24,6,Sunday,1,East Riverfront,International Airport,22.17,42.1,Clear,26.6,0.0,13.5,93,81,0.871,1.0,3.5,60.13
+RIDE_100477,2026-09-01 11:52:00,11,Tuesday,0,Midtown Center,Downtown Financial District,3.77,9.8,Rain,15.6,1.0,20.4,34,105,3.088,2.74,3.5,42.74
+RIDE_100478,2026-08-16 02:31:38,2,Sunday,1,International Airport,South Bay District,33.07,64.3,Clear,28.3,0.0,6.6,50,57,1.14,1.12,3.5,98.85
+RIDE_100479,2026-09-29 23:40:02,23,Tuesday,0,Downtown Financial District,North Suburbs,15.35,40.5,Rain,14.6,2.4,32.0,44,58,1.318,1.21,3.5,56.08
+RIDE_100480,2026-08-08 22:05:55,22,Saturday,1,Westside Residential,Tech Park / University,16.89,35.2,Cloudy,25.3,0.0,8.4,57,115,2.018,1.78,3.5,80.84
+RIDE_100481,2026-09-11 04:01:33,4,Friday,0,South Bay District,Westside Residential,22.1,44.1,Clear,22.3,0.0,6.3,40,55,1.375,1.26,3.5,70.42
+RIDE_100482,2026-09-12 22:02:15,22,Saturday,1,North Suburbs,International Airport,19.04,43.1,Fog,15.4,0.0,9.8,46,80,1.739,1.55,3.5,88.98
+RIDE_100483,2026-08-21 22:18:43,22,Friday,0,Midtown Center,Tech Park / University,8.72,19.6,Clear,27.0,0.0,9.5,93,47,0.505,1.0,3.5,26.9
+RIDE_100484,2026-09-11 17:46:16,17,Friday,0,Midtown Center,Tech Park / University,9.53,28.3,Clear,24.2,0.0,3.8,38,64,1.684,1.51,3.5,47.01
+RIDE_100485,2026-09-27 14:06:10,14,Sunday,1,South Bay District,Westside Residential,17.68,41.8,Fog,13.7,0.0,9.5,60,84,1.4,1.28,3.5,62.82
+RIDE_100486,2026-08-30 22:40:09,22,Sunday,1,Downtown Financial District,International Airport,20.72,41.1,Clear,18.2,0.0,11.1,65,73,1.123,1.11,3.5,66.76
+RIDE_100487,2026-09-08 09:01:49,9,Tuesday,0,Downtown Financial District,Midtown Center,3.53,11.4,Cloudy,19.1,0.0,10.5,74,54,0.73,1.0,3.5,15.21
+RIDE_100488,2026-08-20 20:20:25,20,Thursday,0,Westside Residential,Midtown Center,7.91,24.9,Cloudy,24.8,0.0,9.5,66,104,1.576,1.42,3.5,38.4
+RIDE_100489,2026-08-14 07:46:48,7,Friday,0,Westside Residential,International Airport,25.72,94.2,Thunderstorm,16.1,6.6,18.4,37,132,3.568,3.17,3.5,275.91
+RIDE_100490,2026-09-01 20:34:49,20,Tuesday,0,Midtown Center,Downtown Financial District,3.99,12.1,Cloudy,24.3,0.0,18.9,59,108,1.831,1.62,3.5,26.81
+RIDE_100491,2026-09-18 06:59:30,6,Friday,0,North Suburbs,Midtown Center,11.09,21.6,Cloudy,28.2,0.0,3.8,52,72,1.385,1.27,3.5,39.9
+RIDE_100492,2026-08-13 13:01:28,13,Thursday,0,North Suburbs,Westside Residential,9.75,19.7,Cloudy,27.0,0.0,10.0,86,38,0.442,1.0,3.5,28.43
+RIDE_100493,2026-08-23 08:11:48,8,Sunday,1,East Riverfront,Downtown Financial District,4.19,8.5,Clear,19.4,0.0,19.3,47,35,0.745,1.0,3.5,16.24
+RIDE_100494,2026-09-08 13:14:34,13,Tuesday,0,Downtown Financial District,Westside Residential,8.1,18.0,Clear,19.4,0.0,6.0,86,47,0.547,1.0,3.5,26.62
+RIDE_100495,2026-08-02 19:40:15,19,Sunday,1,South Bay District,Downtown Financial District,13.19,30.4,Fog,10.6,0.0,7.8,94,40,0.426,1.0,3.5,38.58
+RIDE_100496,2026-08-31 09:29:02,9,Monday,0,North Suburbs,Westside Residential,12.34,43.0,Fog,15.8,0.0,9.9,39,163,4.179,3.5,3.5,143.81
+RIDE_100497,2026-09-09 06:22:25,6,Wednesday,0,North Suburbs,International Airport,19.96,38.2,Clear,25.3,0.0,4.2,88,66,0.75,1.0,3.5,57.12
+RIDE_100498,2026-08-12 04:22:24,4,Wednesday,0,North Suburbs,Downtown Financial District,15.72,32.1,Cloudy,23.6,0.0,11.8,93,51,0.548,1.0,3.5,42.05
+RIDE_100499,2026-09-01 12:45:52,12,Tuesday,0,International Airport,South Bay District,33.12,63.2,Clear,20.2,0.0,19.1,60,55,0.917,1.01,3.5,87.26

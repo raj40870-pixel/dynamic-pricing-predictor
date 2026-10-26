@@ -1,0 +1,46 @@
+Feature,Importance
+distance_x_surge,0.9742242238263017
+est_speed_kmh,0.016052548556784372
+duration_x_rush,0.0017227400823230982
+demand_x_weather,0.001614713171981276
+is_airport_trip,0.0011269286849914918
+duration_min,0.0008319707026068475
+demand_supply_ratio,0.000787594530593872
+demand_pressure_index,0.0005924102156507666
+surge_multiplier,0.0005894826194388207
+ride_requests,0.00041903175314845164
+wind_speed_kmh,0.00024603563685548265
+temperature_c,0.00018532090186484877
+active_drivers,0.0001666886677507656
+precipitation_mm,0.0001390001884591676
+distance_km,0.00013420148111190178
+log_distance,0.0001230101513772946
+distance_squared,0.00011762637800807992
+hour_cos,0.00011070138198464724
+hour,8.954277656884878e-05
+is_traffic_congested,8.48716046290644e-05
+day_of_week_num,8.464881400813673e-05
+hour_sin,8.35789828130271e-05
+pickup_location_International Airport,8.077838388561769e-05
+weather_severity_index,7.488448576237257e-05
+is_rush_hour,6.857465866065083e-05
+time_bucket_Night,3.477991715555944e-05
+pickup_location_South Bay District,3.264623118857836e-05
+pickup_location_North Suburbs,3.129844880713561e-05
+weather_condition_Rain,2.0636254814839266e-05
+is_adverse_weather,1.6851892603450234e-05
+weather_condition_Fog,1.2872284572011595e-05
+weather_condition_Cloudy,1.2466863743753644e-05
+pickup_location_Midtown Center,1.1680765459267294e-05
+pickup_location_Westside Residential,1.0127509311452734e-05
+pickup_location_Tech Park / University,9.341202481330535e-06
+weather_condition_Thunderstorm,8.045907754022525e-06
+is_evening_rush,7.871642344083822e-06
+is_weekend,7.551156597402455e-06
+pickup_location_East Riverfront,6.422196920277667e-06
+is_night_peak,6.032765251134273e-06
+is_morning_rush,6.024693604610093e-06
+weather_condition_Heavy Rain,5.8313141287641245e-06
+time_bucket_Morning,4.373289698196754e-06
+time_bucket_Evening,3.5567223078366474e-06
+is_surge_active,4.803036958369228e-07
