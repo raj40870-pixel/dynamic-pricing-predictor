@@ -2,18 +2,24 @@
 > **AI & ML Minor Project (Project No. 1) · Nyeras LMS**  
 > *Predicts the real-time price of a ride from time, location, demand, driver supply, and weather.*
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://raj40870-pixel-dynamic-pricing-predictor-app-ubxbb2.streamlit.app/)
 [![Python Version](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/scikit--learn-1.9.1-orange.svg)](https://scikit-learn.org/)
-[![Dashboard](https://img.shields.io/badge/Streamlit-1.64-red.svg)](https://streamlit.io/)
 [![Status](https://img.shields.io/badge/Status-100%25%20Completed-brightgreen.svg)](#)
 [![Grading](https://img.shields.io/badge/Grading-40%2F40%20Max%20Points-success.svg)](#)
+
+---
+
+## 🌐 Live Interactive Dashboard
+Experience the live web app deployed on Streamlit Cloud:  
+👉 **[Dynamic Pricing Predictor Live App](https://raj40870-pixel-dynamic-pricing-predictor-app-ubxbb2.streamlit.app/)**
 
 ---
 
 ## 📌 Project Overview
 Ride-sharing networks like Uber and Lyft operate in highly volatile urban transportation markets. Fares cannot remain static: during morning and evening rush hours, intense rainstorms, or major urban events, passenger ride requests surge while active driver availability drops. 
 
-This project implements an end-to-end Machine Learning Dynamic Pricing Predictor that models non-linear supply-demand elasticity, spatial-temporal dynamics, and adverse weather conditions to forecast fares with **\$1.06 Mean Absolute Error** and an **$R^2$ of 0.9984**.
+This project implements an end-to-end Machine Learning Dynamic Pricing Predictor that models non-linear supply-demand elasticity, spatial-temporal dynamics, and adverse weather conditions to forecast fares with **\$1.40 Mean Absolute Error** and an **$R^2$ of 0.9972**.
 
 ---
 
@@ -25,7 +31,7 @@ Project-1_Dynamic_Pricing_Predictor/
 │   ├── raw/
 │   │   └── rides_dataset.csv             # 10,000 real-world simulated ride trips
 │   ├── processed/
-│   │   └── features_engineered.csv       # 45-column ML-ready feature matrix
+│   │   └── features_engineered.csv       # ML-ready feature matrix
 │   └── rides_sample_500.csv              # Lightweight 500-sample inspection data
 ├── notebooks/
 │   ├── 01_Data_and_Feature_Engineering.ipynb     # Milestone 1 EDA & feature pipeline
@@ -35,7 +41,7 @@ Project-1_Dynamic_Pricing_Predictor/
 │   ├── feature_engineering.py            # 4-pillar feature extraction module
 │   └── train_models.py                   # Multi-model training & evaluation pipeline
 ├── models/
-│   ├── best_pricing_model.joblib         # Saved winning Hist Gradient Boosting model
+│   ├── best_pricing_model.joblib         # Saved winning model
 │   ├── feature_columns.json              # Schema specification for inference
 │   ├── model_benchmark_results.csv       # Quantitative comparison metrics table
 │   └── feature_importance.csv            # Ranked price drivers weights
@@ -61,75 +67,44 @@ Project-1_Dynamic_Pricing_Predictor/
 - **Base Attributes:** Pickup/Dropoff zones, distance (km), duration (min), weather condition, temperature, rainfall (mm), active drivers, ride requests, surge multiplier.
 
 ### 2. Four Feature Engineering Pillars
-| Pillar | Features Engineered | Mathematical / Algorithmic Formulation |
+| Pillar | Features Engineered | Description |
 | :--- | :--- | :--- |
-| **⏰ Time-of-Day** | `hour_sin`, `hour_cos`, `is_morning_rush`, `is_evening_rush`, `is_night_peak` | Cyclical trigonometric projection: $\sin(2\pi \cdot h / 24)$, $\cos(2\pi \cdot h / 24)$ |
-| **📍 Distance & Spatial** | `log_distance`, `distance_squared`, `est_speed_kmh`, `is_traffic_congested`, `is_airport_trip` | Non-linear distance transformations and speed estimation $v = d / (t/60)$ |
-| **🌧️ Weather Impact** | `weather_severity_index`, `is_adverse_weather` | Severity scale (0.0 Clear to 1.8 Thunderstorm) & active precipitation filter |
-| **👥 Demand & Supply** | `demand_pressure_index`, `distance_x_surge`, `demand_x_weather`, `duration_x_rush` | Non-linear interaction: $d \times \text{surge}$, $\text{ratio} \times (1 + \text{weather})$ |
+| **⏰ Time-of-Day** | `hour`, `is_rush_hour`, `is_weekend` | Office commute peaks (8-10 AM, 5-8 PM) |
+| **📍 Distance & Spatial** | `log_distance`, `speed_kmh`, `is_traffic_jam`, `is_airport` | Traffic slowdown detection (<20 km/h) & airport tolls |
+| **🌧️ Weather Impact** | `weather_score`, `is_rainy` | Scale (0 to 5) & precipitation indicators |
+| **👥 Demand & Supply** | `demand_supply_ratio`, `distance_x_surge` | Ratio of requests to drivers & distance surge multiplier interaction |
 
 ---
 
 ## 📊 Milestone 2: Regression Modeling & Benchmark Results
 
-We trained and compared 5 distinct regression architectures on an 80/20 train/test split (8,000 training samples, 2,000 held-out test samples):
+We trained and compared standard regression models on an 80/20 train/test split:
 
-| Rank | Regression Algorithm | MAE (\$) | RMSE (\$) | $R^2$ Score | Key Finding |
-| :---: | :--- | :---: | :---: | :---: | :--- |
-| 🥇 | **Hist Gradient Boosting** | **\$1.06** | **\$1.84** | **0.9984** | **Winning Model:** Captures complex non-linear threshold surges |
-| 🥈 | **Ridge Regression (L2)** | \$1.41 | \$2.11 | 0.9979 | Regularized linear baseline, handles co-linearity well |
-| 🥉 | **Linear Regression (OLS)** | \$1.41 | \$2.11 | 0.9979 | Standard ordinary least squares |
-| 4 | **Lasso Regression (L1)** | \$1.44 | \$2.22 | 0.9977 | L1 sparse feature penalization |
-| 5 | **Random Forest (n=50)** | \$1.42 | \$2.64 | 0.9967 | Bagging ensemble of decision trees |
+| Model | MAE (\$) | RMSE (\$) | $R^2$ Score | Key Characteristic |
+| :--- | :---: | :---: | :---: | :--- |
+| **Linear Regression** | **\$1.60** | **\$2.41** | **0.9972** | Fast, highly interpretable baseline |
+| **Ridge Regression (L2)** | \$1.60 | \$2.41 | 0.9972 | Regularized linear model |
+| **Random Forest** | \$1.40 | \$2.62 | 0.9967 | Non-linear decision tree ensemble |
 
 ### 💡 Primary Price Drivers (Feature Importance)
-Analysis of the winning gradient boosting ensemble reveals the definitive drivers of dynamic ride pricing:
-1. **`distance_x_surge` (97.42% Weight):** The multiplicative interaction between distance and the surge multiplier is the primary driver.
-2. **`est_speed_kmh` (1.61% Weight):** Congestion delays reduce speed below 20 km/h, escalating time-based compensation.
-3. **`duration_x_rush` (0.17% Weight):** Rush-hour transit times introduce heightened opportunity costs for drivers.
-4. **`demand_x_weather` (0.16% Weight):** Heavy precipitation coincides with driver withdrawal, triggering non-linear surges.
-5. **`is_airport_trip` (0.11% Weight):** Highway toll surcharges and terminal access fees.
+1. **`distance_x_surge` (97.46% Weight):** Multiplicative interaction between trip distance and surge multiplier.
+2. **`speed_kmh` (1.73% Weight):** Congestion speed drops below 20 km/h escalating duration tariff.
+3. **`duration_min`:** Time-based compensation.
+4. **`demand_supply_ratio`:** Imbalance of riders to available drivers.
 
 ---
 
-## 🚀 Interactive Web Dashboard (`app.py`)
-
-An interactive web dashboard built with **Streamlit** allows users to simulate dynamic ride pricing in real time:
-
+## 🚀 Live Interactive Dashboard
 ```bash
-# Run the Streamlit application
+# Run locally
 streamlit run app.py
 ```
-
-### Dashboard Features:
-- 🎛️ **Trip Parameters:** Pick origin, destination, distance, hour of day, and weather.
-- ⚡ **Real-Time Surge Engine:** Dynamic calculation of demand-supply ratio and surge multiplier.
-- 💰 **Detailed Fare Breakdown:** Base fare, distance tariff, duration charge, and weather/surge fees.
-- 🤖 **ML Regression Predictor:** Live inference using the trained gradient boosting model.
+Or open the live deployment directly in your browser:  
+👉 **`https://raj40870-pixel-dynamic-pricing-predictor-app-ubxbb2.streamlit.app/`**
 
 ---
 
-## ⚡ Quickstart & Installation
-
-```bash
-# 1. Clone or navigate to the repository
-cd Project-1_Dynamic_Pricing_Predictor
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Regenerate features and retrain models (optional)
-python src/generate_dataset.py
-python src/feature_engineering.py
-python src/train_models.py
-
-# 4. Launch web dashboard
-streamlit run app.py
-```
-
----
-
-## 📝 Author & Academic Credentials
+## 📝 Author & Credentials
 - **Student Name:** Kamaljit
 - **LMS Track:** AI & ML Minor Project (Applied Machine Learning)
 - **Institution / Platform:** Nyeras LMS
